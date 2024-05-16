@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="en-gb" lang="en-gb">
+<head>
+  <meta charset="utf-8"/>
+  <title>Test 6: specific contents</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src=".../div/script.js"></script>
+  <script src=".../div/modal.js"></script>
+  <link rel="stylesheet" type="text/css" href="../styles/abelab-remediation-test-suite.css"/>
+</head>
+
+<body epub:type="bodymatter">
+  <div id="test-6-specific-contents" class="level2" data-number="2.6">
+    <p><span epub:type="pagebreak" role="doc-pagebreak" id="page10" aria-label="Page 10. "></span></p>
+
+    <h2 data-number="2.6">Test 6: specific contents</h2>
+
+    <div id="forms" class="level3" data-number="2.6.1">
+      <h3 data-number="2.6.1" id="toc_id_20">Forms</h3>
+
+      <p>Example taken from <a href="https://www.accessibility-developer-guide.com/examples/forms/bad-example/">Accessibility developper guide General bad form example</a> provided under MIT licence by «Access for all», Swiss Foundation for technologies that fit the needs of persons with disabilities.</p>
+
+      <div class="control">
+        <label>Full name</label><input type="text"/>
+      </div>
+
+      <div class="control">
+        <label>Biography</label><textarea></textarea>
+      </div>
+
+      <div class="fieldset">
+        <div class="legend">
+          Gender
+        </div>
+
+        <div class="control">
+          <input name="gender" type="radio" value="male"/> 
+
+          <div class="label">
+            Male
+          </div>
+        </div>
+
+        <div class="control">
+          <input name="gender" type="radio" value="female"/> 
+
+          <div class="label">
+            Female
+          </div>
+        </div>
+      </div>
+
+      <a id="button" onclick="alert('Submitting using fancy JavaScript...')">Submit</a> 
+
+      <p style="text-align:left;"><b>To test: find and fix the non accessible form</b></p>
+    </div>
+
+    <div id="scripts" class="level3" data-number="2.6.2">
+      <h3 data-number="2.6.2" id="toc_id_21">Scripts</h3>
+
+      <p style="text-align:left;"><b>To test: find and fix the script</b></p>
+
+      <div class="snippet-result">
+        <div class="snippet-ctas">
+          <button type="button" class="s-btn s-btn__filled"> 
+
+          <svg aria-hidden="true" class="svg-icon iconPlay" width="17" height="18" viewBox="0 0 17 18"><path d="M3 2.87a1 1 0 0 1 1.55-.83l9.2 6.13a1 1 0 0 1 0 1.66l-9.2 6.13A1 1 0 0 1 3 15.13V2.87Z"/></svg>
+
+<span> Run code snippet</span> 
+
+          </button> <input class="copySnippet s-btn s-btn__outlined" type="button" value="Copy snippet to answer" style="display: none;"/> <button type="button" class="s-btn hideResults" style="">Hide results</button> 
+
+          <div class="popout-code" style="display: none;">
+            <a class="snippet-expand-link">Expand snippet</a> 
+
+            <div class="snippet-result-code" style="">
+              <iframe name="sif2" sandbox="allow-forms allow-modals allow-scripts" class="snippet-box-edit snippet-box-result" frameborder="0">&amp;lt; /iframe&amp;gt;&amp;lt;/ &amp;lt;h2&amp;gt;Modal window example 1&amp;lt;/h2&amp;gt; &amp;lt;button class="modal__show"&amp;gt;Show Modal&amp;lt;/button&amp;gt; &amp;lt;ul&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;Element 1&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;Element 2&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;div class="modal" id="modal"&amp;gt; &amp;lt;div class="modal__content"&amp;gt; &amp;lt;h2&amp;gt;Modal&amp;lt;/h2&amp;gt; &amp;lt;form action="#"&amp;gt; &amp;lt;p&amp;gt; &amp;lt;label for="firstname"&amp;gt;First name&amp;lt;/label&amp;gt; &amp;lt;input type="text" id="firstname" /&amp;gt; &amp;lt;/p&amp;gt; &amp;lt;p&amp;gt; &amp;lt;label for="lastname"&amp;gt;First name&amp;lt;/label&amp;gt; &amp;lt;input type="text" id="lastname" /&amp;gt; &amp;lt;/p&amp;gt; &amp;lt;button&amp;gt;Send&amp;lt;/button&amp;gt; &amp;lt;/form&amp;gt; &amp;lt;button class="modal__close"&amp;gt; close &amp;lt;/button&amp;gt; &amp;lt;!-- .modal__close --&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;!-- .modal__content --&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;!-- .modal --&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div id="maths-contents" class="level3" data-number="2.6.3"&amp;gt; &amp;lt;h3 data-number="2.6.3"&amp;gt;Maths contents&amp;lt;/h3&amp;gt; &amp;lt;p&amp;gt;Examples adapted from Daisy Transition to epub &amp;lt;a href="https://github.com/daisy/transitiontoepub/tree/main/best-practices/mathML"&amp;gt;MathML best practices&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt; &amp;lt;h4&amp;gt;Math as plain text&amp;lt;/h4&amp;gt; &amp;lt;p class="formula"&amp;gt;&amp;lt;span&amp;gt;∇&amp;amp;#x1d453;(&amp;amp;#x1d465;) = 2&amp;amp;#x1d465;&amp;lt;/span&amp;gt; &amp;lt;p class="formula"&amp;gt;&amp;lt;span&amp;gt;lim {x → ∞} 1/x = 0&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt; &amp;lt;/p&amp;gt; &amp;lt;h4&amp;gt;Math as MathML&amp;lt;/h4&amp;gt; &amp;lt;math xmlns="http://www.w3.org/1998/Math/MathML"&amp;gt; &amp;lt;mrow&amp;gt; &amp;lt;mi mathvariant="normal"&amp;gt;∇&amp;lt;/mi&amp;gt; &amp;lt;mi&amp;gt;f&amp;lt;/mi&amp;gt; &amp;lt;mo form="prefix" stretchy="false"&amp;gt;(&amp;lt;/mo&amp;gt; &amp;lt;mi&amp;gt;x&amp;lt;/mi&amp;gt; &amp;lt;mo form="postfix" stretchy="false"&amp;gt;)&amp;lt;/mo&amp;gt; &amp;lt;mo&amp;gt;=&amp;lt;/mo&amp;gt; &amp;lt;mn&amp;gt;2&amp;lt;/mn&amp;gt; &amp;lt;mi&amp;gt;x&amp;lt;/mi&amp;gt; &amp;lt;/mrow&amp;gt; &amp;lt;/math&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;</iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
