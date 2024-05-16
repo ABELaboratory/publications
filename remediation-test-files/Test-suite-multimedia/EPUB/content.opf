@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="3.0" unique-identifier="epub-id-1" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/" xml:lang="en-gb" xmlns="http://www.idpf.org/2007/opf">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:description>This file is part of ABELab test suite, it is dedicated to multimedia contents.</dc:description>
+    <dc:title id="epub-title-1">ABELab Test suite reflowable 2 of 3: multimedia contents</dc:title>
+    <dc:date id="epub-date">2023-11-08</dc:date>
+    <dc:language>en-gb</dc:language>
+    <dc:creator id="epub-creator-1">ABELab PCT</dc:creator>
+    <meta property="dcterms:modified">2023-12-11T14:59:28Z</meta>
+    <dc:identifier id="epub-id-1">urn:uuid:4c000fd0-a1d1-480d-810e-cae7768dd477</dc:identifier>
+    <meta name="cover" content="cover_jpg"/>
+    <meta content="1.4.3" name="Sigil version"/>
+  </metadata>
+  <manifest>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="title_page_xhtml" href="text/title_page.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch014_xhtml" href="text/ch014.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch016_xhtml" href="text/ch016.xhtml" media-type="application/xhtml+xml"/>
+    <item id="cover_jpg" href="media/cover.jpg" media-type="image/jpeg" properties="cover-image"/>
+    <item id="audio" href="media/videoplayback.mp3" media-type="audio/mp3"/>
+    <item id="video" href="media/video.mp4" media-type="video/mp4"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="title_page_xhtml" linear="no"/>
+    <itemref idref="ch014_xhtml"/>
+    <itemref idref="ch016_xhtml"/>
+  </spine>
+  <guide>
+    <reference type="toc" title="Test-suite" href="nav.xhtml"/>
+  </guide>
+</package>
