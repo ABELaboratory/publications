@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<package
+  version="3.0" xmlns="http://www.idpf.org/2007/opf"
+  unique-identifier="epub-id-1"
+  prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/"
+  xml:lang="en-gb">
+  <opf:metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:identifier
+      id="epub-id-1">urn:uuid:589987e7-aac2-4c9e-911e-ec4a8384613a</dc:identifier>
+    <dc:title
+      id="epub-title-1">ABELab Final Public Report</dc:title>
+    <opf:meta
+      property="title-type"
+      refines="#epub-title-1">main</opf:meta>
+    <dc:date
+      id="epub-date">2024-05-15</dc:date>
+    <dc:language>en-gb</dc:language>
+    <dc:creator
+      id="epub-creator-1">ABELab Project Core Team</dc:creator>
+    <opf:meta
+      name="cover"
+      content="cover_jpg" />
+    <opf:meta
+      property="dcterms:modified">2024-05-15T16:01:37Z</opf:meta>
+    <dc:contributor
+      id="dccontributor1">EDRLab, Fondazione LIA, KB</dc:contributor>
+    <dc:source
+      id="src-id">Final Public Report by ABE Lab, May 2024, PDF version</dc:source>
+    <opf:meta
+      property="source-of"
+      refines="#src-id">pagination</opf:meta>
+    <dc:publisher>EDRLab</dc:publisher>
+    <opf:meta
+      property="schema:accessibilitySummary">The publication contains structural and page navigation. Alt text is included for images if this was present in source Word document.</opf:meta>
+    <opf:meta
+      property="schema:accessMode">textual</opf:meta>
+    <opf:meta
+      property="schema:accessMode">visual</opf:meta>
+    <opf:meta
+      property="schema:accessModeSufficient">textual</opf:meta>
+    <opf:meta
+      property="schema:accessibilityFeature">structuralNavigation</opf:meta>
+    <opf:meta
+      property="schema:accessibilityFeature">displayTransformability</opf:meta>
+    <opf:meta
+      property="schema:accessibilityFeature">readingOrder</opf:meta>
+    <opf:meta
+      property="schema:accessibilityFeature">tableOfContents</opf:meta>
+    <opf:meta
+      property="schema:accessibilityFeature">unlocked</opf:meta>
+    <opf:meta
+      property="schema:accessibilityFeature">printPageNumbers</opf:meta>
+    <opf:meta
+      property="schema:accessibilityFeature">alternativeText</opf:meta>
+    <opf:meta
+      property="schema:accessibilityHazard">none</opf:meta>
+  </opf:metadata>
+  <manifest>
+    <item
+      id="ncx"
+      href="toc.ncx"
+      media-type="application/x-dtbncx+xml" />
+    <item
+      id="nav"
+      href="nav.xhtml"
+      media-type="application/xhtml+xml"
+      properties="nav" />
+    <item
+      id="stylesheet1"
+      href="styles/wordtoepub.css"
+      media-type="text/css" />
+    <item
+      id="title_page_xhtml"
+      href="text/title_page.xhtml"
+      media-type="application/xhtml+xml" />
+    <item
+      id="ch001_xhtml"
+      href="text/ch001.xhtml"
+      media-type="application/xhtml+xml" />
+    <item
+      id="ch002_xhtml"
+      href="text/ch002.xhtml"
+      media-type="application/xhtml+xml" />
+    <item
+      id="ch003_xhtml"
+      href="text/ch003.xhtml"
+      media-type="application/xhtml+xml" />
+    <item
+      id="ch004_xhtml"
+      href="text/ch004.xhtml"
+      media-type="application/xhtml+xml" />
+    <item
+      id="ch005_xhtml"
+      href="text/ch005.xhtml"
+      media-type="application/xhtml+xml" />
+    <item
+      id="ch006_xhtml"
+      href="text/ch006.xhtml"
+      media-type="application/xhtml+xml" />
+    <item
+      id="ch007_xhtml"
+      href="text/ch007.xhtml"
+      media-type="application/xhtml+xml" />
+    <item
+      properties="cover-image"
+      id="cover_jpg"
+      href="media/cover.jpg"
+      media-type="image/jpeg" />
+    <item
+      id="file3_jpg"
+      href="media/file3.jpg"
+      media-type="image/jpeg" />
+    <item
+      id="file2_jpg"
+      href="media/file2.jpg"
+      media-type="image/jpeg" />
+    <item
+      id="file1_jpg"
+      href="media/file1.jpg"
+      media-type="image/jpeg" />
+    <item
+      id="file0_jpg"
+      href="media/file0.jpg"
+      media-type="image/jpeg" />
+  </manifest>
+  <spine
+    toc="ncx">
+    <itemref
+      idref="title_page_xhtml"
+      linear="no" />
+    <itemref
+      idref="ch001_xhtml" />
+    <itemref
+      idref="ch002_xhtml" />
+    <itemref
+      idref="ch003_xhtml" />
+    <itemref
+      idref="ch004_xhtml" />
+    <itemref
+      idref="ch005_xhtml" />
+    <itemref
+      idref="ch006_xhtml" />
+    <itemref
+      idref="ch007_xhtml" />
+  </spine>
+  <guide>
+    <reference
+      type="toc"
+      title="ABELab Final Public Report"
+      href="nav.xhtml" />
+  </guide>
+</package>
