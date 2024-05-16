@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="en-gb" lang="en-gb">
+
+<head>
+  <meta charset="utf-8" />
+
+  <title>Outcomes: methods and guidelines</title>
+
+  <link rel="stylesheet" type="text/css" href="../styles/blitz_abelab.css" />
+</head>
+
+<body epub:type="bodymatter">
+  <section id="outcomes-methods-and-guidelines" class="level1" >
+    <p>
+      <span epub:type="pagebreak" role="doc-pagebreak" id="page18" aria-label="18"></span>
+    </p>
+    <h1 >Outcomes: methods and guidelines</h1>
+    <section id="recurrent-accessibility-issues" class="level2" >
+      <h2 >Recurrent accessibility issues </h2>
+      <p>The gap analysis allowed us to establish a list of the most recurrent accessibility issues found in the
+        backlist ebooks, based on the collected samples<a href="#fn1" class="footnote-ref" id="fnref1"
+          epub:type="noteref" role="doc-noteref"><sup>1</sup></a>. This list has been used for other activities and can
+        be considered a baseline for remediation needs that will apply to most collections. The list is detailed in the
+        <i>Gap analysis</i> section of the <i>Report on backlist data and gap analysis</i>. As a quick reminder, we are
+        just providing here a resume:</p>
+      <ul>
+        <li>
+          <p>Missing Accessibility Metadata</p>
+        </li>
+        <li>
+          <p>Non-reflowable content</p>
+        </li>
+        <li>
+          <p>Missing or bad textual alternative for graphical resources</p>
+        </li>
+        <li>
+          <p>Missing or bad Language Tags</p>
+        </li>
+        <li>
+          <p>Structure errors (Empty-Table-Header, Empty-Heading, Heading-Order)</p>
+        </li>
+        <li>
+          <p>Missing semantics (Html-Has-Lang, Aria-Roles, Link-Name, Document-Title, Epub-Type-Has-Matching-Role)</p>
+        </li>
+        <li>
+          <p>Possible navigation improvements (Landmark-Unique, Epub-Toc-Order, Epub-Pagelist-Broken)</p>
+        </li>
+        <li>
+          <p>Contents and styling errors (Link-In-Text-Block, Color-Contrast)</p>
+        </li>
+      </ul>
+      <p>Additionally, there are also accessibility issues that can’t be detected automatically and that requires ad hoc
+        human testing to be identified. This concerns <i>reflowable restrictions</i> imposed by style rules applied to
+        the file, as well as s<i>pecific contents</i> such as forms, scripts, maths, videos and audio, which are not
+        usually used in ebooks, but as this may happen, it will be necessary to include them in the remediation process
+        should they occur in a file.</p>
+      <section id="test-suite" class="level3" >
+        <h3 >Test suite</h3>
+        <p>To test if the identified remediation tools offer functionalities to fix the identified accessibility issues,
+          we’ve built a set of test files, one for each starting format (EPUB 2, EPUB 3, EPUB Fixed Layout, PDF). We
+          used these test files to carry out functional tests to assess which functionalities were present in a tool and
+          which were missing. In these files, we included all the most recurrent accessibility issues according to our
+          analysis of the publisher's provided ebook backlist.</p>
+        <p>The test suite is available from the ABE Lab website <i>Outcomes</i> section<a href="#fn2"
+            class="footnote-ref" id="fnref2" epub:type="noteref" role="doc-noteref"><sup>2</sup></a> and is composed of
+          five files:</p>
+        <ol type="1">
+          <li>
+            <p>an EPUB 2 file, to be used to check the features of the remediation tools that claim to turn inaccessible
+              EPUB 2 into accessible EPUB 3;</p>
+          </li>
+          <li>
+            <p>an EPUB 3 file, to be used to check the features of the remediation tools that claim to turn inaccessible
+              EPUB 3 into accessible EPUB 3;</p>
+          </li>
+          <li>
+            <p>an EPUB 3 with multimedia (audio and video) only;</p>
+          </li>
+          <li>
+            <p>an EPUB 3 Fixed Layout, to be used for the remediation workflows from EPUB 3 Fixed Layout to “accessible”
+              EPUB 3 Fixed Layout and from EPUB 3 Fixed Layout to EPUB 3 reflowable;</p>
+          </li>
+          <li>
+            <p>a PDF file to be used to test the tools that convert a PDF file into a PDF/UA file or in an EPUB 3 file.
+            </p>
+          </li>
+        </ol>
+      </section>
+    </section>
+    <section id="mark19for-publishersmark" class="level2" >
+      <p>
+        <span epub:type="pagebreak" role="doc-pagebreak" id="page19" aria-label="19"></span>
+      </p>
+      <h2 >
+        <mark>For publishers</mark>
+      </h2>
+      <p>As there are too few common denominators to classify backlist titles, and because the EAA asks to assess and
+        evaluate disproportionate burden per title, the minimum to do to keep titles in sales is to acquire a good
+        knowledge of the collections.</p>
+      <p>This part can be done with support of existing automated evaluation tools and distributors' sales reports.
+        These steps will generate a better understanding of the existing and therefore, reinforce the publishing house
+        at different levels, not only those related to accessibility.</p>
+      <section id="markhow-to-triage-filesmark" class="level3" >
+        <h3 >
+          <mark>How to triage files?</mark>
+        </h3>
+        <p>Collecting information and statistics is necessary to start a triage and track decisions per book. At the
+          moment of this report, no known available tool exists to do so. This can be implemented in an integrated
+          information system or, by default, as a spreadsheet. For each title, it is necessary to collect at least the
+          following baseline information:</p>
+        <ul>
+          <li>
+            <p>File format</p>
+          </li>
+          <li>
+            <p>Other formats the title is available in</p>
+          </li>
+          <li>
+            <p>Known production information like</p>
+            <ul>
+              <li>
+                <p>Year of production</p>
+              </li>
+              <li>
+                <p>Source file (availability and format)</p>
+              </li>
+              <li>
+                <p>Service provider, if known</p>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <p>Known editorial information like</p>
+            <ul>
+              <li>
+                <p>The presence of languages different from the main language</p>
+              </li>
+              <li>
+                <p>Images common to all books (cover, logos)</p>
+              </li>
+              <li>
+                <p>Number of images (except the common ones)</p>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <p>Additionally, it is an easy step to collect EPUBCheck and ACE reports. This will allow publishers to add the
+          following columns to the spreadsheet:</p>
+        <ul>
+          <li>
+            <p>Number of EPUBCheck errors (critical, serious and minor)</p>
+          </li>
+          <li>
+            <p>Number of ACE errors (critical, serious and minor)</p>
+          </li>
+        </ul>
+        <p>More statistics and in-depth analysis can be generated following the methodology used by the ABE Lab gap
+          analysis or requiring services from an accessibility consultancy organisation. We also expect that more
+          detailed analysis tools will be available shortly, as proposed by distributors, service providers, or other
+          actors. In the context of ABE Lab, we have calculated three additional statistics sets:</p>
+        <ul>
+          <li>
+            <p>statistics on the usage of HTML tags, attributes and values</p>
+            <ul>
+              <li>
+                <p>Number of times each tag and attribute appears in the file</p>
+              </li>
+              <li>
+                <p>Attribute values and how many times a certain value appears for a certain attribute (e.g. lang,
+                  class, role)</p>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <p>a check whether the language attribute given by the content creator is congruent with the text or not. We
+              analysed the text of all paragraphs with more than 5 words using a model trained with Machine Learning
+              techniques, which can guess language from plain text<a href="#fn3" class="footnote-ref" id="fnref3"
+                epub:type="noteref" role="doc-noteref"><sup>3</sup></a>;</p>
+          </li>
+          <li>
+            <p>number of words per XHTML file.</p>
+          </li>
+        </ul>
+      </section>
+      <section id="mark20how-to-evaluate-costmark" class="level3" >
+        <p>
+          <span epub:type="pagebreak" role="doc-pagebreak" id="page20" aria-label="20"></span>
+        </p>
+        <h3 >
+          <mark>How to evaluate cost?</mark>
+        </h3>
+        <p>The monetary costs of remediation of various ebooks vary strongly from one country to another. Therefore, it
+          is not possible to provide an estimate in terms of prices and costs. Instead, we share the time frame that,
+          based on our experimentation, requires correcting each type of accessibility error.</p>
+        <p>Remembering that one-off costs may apply to the organisation is also important. These may include awareness,
+          initial planning, workflow set and tools selection, as well as training people and tools. Since most
+          publishers will first focus on modifying their workflows or specifications for their contracted service
+          providers to make their new ebooks accessible, the associated organisational costs, such as awareness and
+          training, will likely be incurred before the remediation process for backlist titles begins. Certain
+          additional information will be necessary to decide which backlist titles will be remediated, which titles may
+          be kept under disproportionate burden, and which may be removed from the market. This may include legal
+          information, cost estimates for different remediation options and information about the revenues to be
+          expected. Insights on what it takes to remediate existing titles will be the most difficult to get, and for
+          this, some consultancy might be required.</p>
+        <p>Defining the production cost associated with the backlist ebook remediation activity requires taking into
+          account which interventions can be carried out automatically by the available remediation tools, which
+          adjustments require the intervention of a human operator expert on accessibility, what the post-remediation
+          quality control efforts are, and if there are additional costs related to reintroducing the title in the
+          market. The next subsections give some insights to help with the evaluation of production costs.</p>
+        <section id="primary-considerations" class="level4" >
+          <h4 >Primary considerations</h4>
+          <p>There is currently no remediation technological solution or service on the market that can process a large
+            collection of files in one go, but using the <i>Readium Go Toolkit</i>, it is possible to parse EPUB files
+            and add some basic accessibility metadata that can be inferred from the ebook file to large collections
+            (e.g. it can tell if the ebook contains a table of contents, mathematical formulas in MathML or images, but
+            not if the associated alt text is meaningful, and it cannot check whether the language attribute given by
+            the content creator is congruent with the actual language text).</p>
+          <p>There are tools for reflowable EPUBs that achieve a good level of remediation at an affordable cost. But if
+            the digital version of a publication has been produced as a fixed-layout EPUB or PDF, based on the results
+            of our project, the most achievable option is not to remediate the Fixed Layout or PDF file but to produce a
+            newborn accessible version of the title as a reflowable EPUB.</p>
+          <p>Graphical resources need dedicated treatment as they require an editorial decision (is it necessary to add
+            an alternative text?) and action (writing an accurate alternative text). ACE report can provide a list of
+            images to help with this process.</p>
+        </section>
+        <section id="time-for-basic-remediation-of-epub2-to-epub3" class="level4" >
+          <h4 >Time for basic remediation of EPUB2 to EPUB3</h4>
+          <p>Based on our testing activities, we estimate that with the currently available tools, 1 hour for an average
+            EPUB 2 to be transformed to EPUB 3, and then remediated to meet the accessibility requirements of the EAAis
+            a reasonable time. Further enrichments (like adding page breaks and page numbers) are not included in this
+            evaluation.</p>
+          <p>The following list gives more details including minimum, maximum and average times spent by the operator
+            who performed the remediation tests:</p>
+          <ul>
+            <li>
+              <p>for the ‘simple’ fiction title (320 pages, 14 images), the total time was 43 minutes minimum, 52
+                minutes on average, and 67 minutes maximum</p>
+            </li>
+            <li>
+              <p>
+                <span epub:type="pagebreak" role="doc-pagebreak" id="page21" aria-label="21"></span>for a children’s
+                book with mainly text, only a cover image (288 pages, 19 images) the total time was 39 minutes minimum,
+                43 minutes on average and 48 minutes maximum
+              </p>
+            </li>
+            <li>
+              <p>for a title with ‘medium complexity’ (category Society and Social Sciences) (277 pages, 60 images, 20
+                tables, 150 links, 192 footnotes, 46 chapters) the total time was 55 minutes minimum, 64 minutes on
+                average and 73 minutes maximum. Note that time refers to time needed to copy-paste a generic image
+                descriptions, not the time required for writing them.</p>
+            </li>
+          </ul>
+        </section>
+        <section id="time-for-conversion-and-remediation-of-pdf-to-reflowable-epub3" class="level4"
+          >
+          <h4 >Time for conversion and remediation of PDF to reflowable EPUB3</h4>
+          <p>Based on our testing activities, we estimate that converting a PDF into an EPUB 3, and remediating the
+            output file will take more time than converting an EPUB 2 into an EPUB 3 and making it accessible (based on
+            the results of the ‘average’ files tested). Typically a day per file would be plausible. Actual time per
+            real book needs to be assessed case by case.</p>
+          <p>The following list gives more details including minimum, maximum and average times spent by the operator
+            who performed the remediation:</p>
+          <ul>
+            <li>
+              <p>a sample with ‘medium complexity’ (Category Law) including 83 pages, 1 image, 55 links (hyperlinks and
+                footnotes) took 54 minutes minimum, 86 minutes on average and 118 minutes maximum. The full book is 492
+                pages including the cover, 1 image, 57 links, and around 770 footnotes, an EPUB would be around 24
+                chapters);</p>
+            </li>
+            <li>
+              <p>An extract of category Medical (22 pages, 13 images, 1 table and 4 links) took 63 minutes minimum, 72
+                minutes average and 81 minutes maximum. The full book is 359 pages including the cover, 164 images, 21
+                tables, and 104 links (not counting TOC and index);</p>
+            </li>
+            <li>
+              <p>an illustrated children's book (57 pages, 37 images) took a minimum of 22 minutes, an average of 25 and
+                a maximum of 28;</p>
+            </li>
+            <li>
+              <p>another non-fiction extract, including 40 pages, 15 images, 31 links (hyperlinks and footnotes) took a
+                minimum of 34, an average of 44 and a maximum of 55 minutes. The full book is 136 pages, 75 images, 146
+                links, and 28 footnotes).</p>
+            </li>
+          </ul>
+        </section>
+      </section>
+      <section id="markwhen-to-start-remediationmark" class="level3" >
+        <h3 >
+          <mark>When to start remediation?</mark>
+        </h3>
+        <p>Of the accessibility correction actions, the addition of accessibility metadata is the one that can be
+          accomplished most quickly. This can be partially done by a batch use of the <i>Readium Go Toolkit</i> (an
+          open-source tool that can derive some basic and partial accessibility metadata directly from files), by an
+          in-house build script reusing the inference rules proposed by the Readium Foundation, or by publisher-specific
+          inference rules created from the knowledge of the collections. The result will be the addition of
+          accessibility information to ONIX records. We expect that some distributors will propose prefilled formulas or
+          Excel files depending on the usual interexchange procedures in place. However, in most countries, publishers
+          remain legally accountable for the information provided, so understanding the meaning of the most important
+          accessibility information is necessary. This learning can be achieved by reading the resources proposed in the
+          dedicated appendix.</p>
+      </section>
+    </section>
+    <section id="mark22for-tool-producersmark" class="level2" >
+      <p>
+        <span epub:type="pagebreak" role="doc-pagebreak" id="page22" aria-label="22"></span>
+      </p>
+      <h2 >
+        <mark>For tool producers</mark>
+      </h2>
+      <p>Based on the recurrent accessibility issues found in the sample collections, and built on the results of our
+        testing activities, we have detailed high-level guidelines including the main functionalities and information
+        that tool producers should provide to help publishers solve efficiently accessibility problems found in their
+        files. Tools producers should refer to the <i>Guidelines</i><a href="#fn4" class="footnote-ref" id="fnref4"
+          epub:type="noteref" role="doc-noteref"><sup>4</sup></a>. We are providing here a quick summary of key points.
+      </p>
+      <p>
+        <i>Find</i>, <i>fix</i>, and <i>check</i> are the three key aspects of accessibility remediation. Tools are
+        expected to support expert human operators by identifying the accessibility problem, reporting it to them, and
+        guiding them for applying corrections. For the remediation to be effective, the tools should therefore:
+      </p>
+      <ul>
+        <li>
+          <p>find the accessibility issues contained in the ebook;</p>
+        </li>
+        <li>
+          <p>provide a way to correct the identified accessibility issues, for example, via dedicated options;</p>
+        </li>
+        <li>
+          <p>check the conformance of the file to ensure the output will be valid with the file format specification and
+            compliant with the target accessibility guidelines or standards. Accessibility checks carried out before
+            export, or at the operator's request, are also strategically important to ensure that the ebook does not
+            have accessibility problems before it is exported and checked with external tools.</p>
+        </li>
+      </ul>
+      <p>Publishers' needs vary greatly, depending on the size of the collections, in-house knowledge, and many other
+        factors. Therefore, the remediation tools that will be used can take many different forms and levels of
+        complexity. It is important to identify which operator audience the individual tool is aimed at by providing
+        clear, detailed documentation on how the remediation tool works and what it offers to make the work easier and
+        faster. Minimum viable information that must be found is as follows:</p>
+      <ul>
+        <li>
+          <p>Input and output formats</p>
+        </li>
+        <li>
+          <p>Accepted contents complexity</p>
+        </li>
+        <li>
+          <p>Accessibility Target (EPUB Accessibility, WCAG, EAA, ADA, PDF/UA)</p>
+        </li>
+        <li>
+          <p>Type of licence and plan</p>
+        </li>
+        <li>
+          <p>Safety of the data</p>
+        </li>
+        <li>
+          <p>Machine Learning policy</p>
+        </li>
+      </ul>
+      <p>Although the objective of the ABE Lab project is not to guide the design, usability, and accessibility of
+        graphical interfaces of remediation tools, it would be great if these were compliant with the requirements
+        defined by the Web Content Accessibility Guidelines (WCAG) 2, the User Agent Accessibility Guidelines (UAAG),
+        and the technical standard EN 301 549. An accessible interface would represent added value and make the
+        remediation tool usable by many operators. The following key points should be regarded with caution:</p>
+      <ul>
+        <li>
+          <p>In-tool support. There should be attention to providing as much support as possible to guide the human
+            operators in fixing the accessibility errors, to reduce the number of iterations needed to the minimum;</p>
+        </li>
+        <li>
+          <p>Improve, don't disrupt. The remediation tool must not cause a loss of information, must not add
+            accessibility errors and must not compromise the technical integrity of the file. When converting a PDF into
+            an accessible PDF, the original layout and design should be maintained: fonts, colours, and graphic elements
+            should not be affected during the remediation phase, and the accessible file respects the graphics of the
+            source file.</p>
+        </li>
+      </ul>
+      <p>
+        <span epub:type="pagebreak" role="doc-pagebreak" id="page23" aria-label="23"></span>An ebook can contain many
+        different types of accessibility errors. Analysing a sample of backlist files, we found that some accessibility
+        problems recur with particular frequency; these are detailed in the Gap analysis<a href="#fn5"
+          class="footnote-ref" id="fnref5" epub:type="noteref" role="doc-noteref"><sup>5</sup></a> and resumed here:
+      </p>
+      <ul>
+        <li>
+          <p>Accessibility metadata</p>
+        </li>
+        <li>
+          <p>Alternative text for images</p>
+        </li>
+        <li>
+          <p>Missing or bad language tag</p>
+        </li>
+        <li>
+          <p>Headings hierarchy</p>
+        </li>
+        <li>
+          <p>Colour contrast</p>
+        </li>
+        <li>
+          <p>Document title</p>
+        </li>
+        <li>
+          <p>Semantics</p>
+        </li>
+      </ul>
+      <section id="markcheck-your-tool-functionalitiesmark" class="level3" >
+        <h3 >
+          <mark>Check your tool functionalities</mark>
+        </h3>
+        <p>Evaluating a tool is a complex activity and involves multifaceted aspects. One of these is represented by the
+          expectations of those who evaluate the instrument, which largely depends on their specific needs. A tool could
+          be evaluated based on the results it allows to obtain even when used by non-expert users. At the same time,
+          what is sought may be a tool capable of integrating effectively and fluidly into existing workflows and which
+          therefore potentially requires advanced coding and programming skills. The ideal solution may also be
+          platforms or programs that allow making batch modifications to large quantities of files. Combining such broad
+          and varied expectations would make a complex checklist. Hence, the checklist we prepared focuses on the
+          features related to the most recurring accessibility issues highlighted by the gap analysis.</p>
+        <p>The checklists reported in part 4 of the <i>Guidelines</i><a href="#fn6" class="footnote-ref" id="fnref6"
+            epub:type="noteref" role="doc-noteref"><sup>6</sup></a> can be used as methodological support that allows
+          one to obtain a clearer view of the current state of a tool. They are provided to help stakeholders,
+          remediation tools producers and developers check the state of the art of their tools and to plan future
+          developments.</p>
+        <p>However, they do not claim to be a complete and definitive list to assess the quality or completeness of a
+          remediation tool, nor does meeting all the points in the list guarantee that the remediated files will be
+          fully accessible and compliant with the requirements of the EAA and international accessibility guidelines.
+        </p>
+        <p>It’s also important to highlight that these guidelines might not be maintained after the end of the project.
+          Therefore, they can not be used to claim conformity with the latest level of required accessibility and must
+          not be used as a marketing or commercial argument.</p>
+        <p>The points of the checklists and the content of the guidelines are high-level indications that can be
+          relevant for remediation tools regardless of the input file format.</p>
+      </section>
+    </section>
+  </section>
+  <section id="footnotes" class="footnotes footnotes-end-of-document" epub:type="footnotes">
+    <hr />
+    <ol>
+      <li id="fn1">
+        <p>For a complete and detailed list of the most recurrent accessibility issues detected, see <i>Recurrent
+            accessibility issues detected</i>, in “Gap analysis”, ABE Lab, <a
+            href="https://www.abelab.eu/outcomes/gap_analysis/#recurrent-accessibility-issues-detected"><u>https://www.abelab.eu/outcomes/gap_analysis/#recurrent-accessibility-issues-detected</u></a><a
+            href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p>
+      </li>
+      <li id="fn2">
+        <p>
+          <a href="https://www.abelab.eu/outcomes/test-suite">
+            <u>https://www.abelab.eu/outcomes/test-suite</u>
+          </a>
+          <a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a>
+        </p>
+      </li>
+      <li id="fn3">
+        <p>Wrong language assertion is done with the help of the <a href="https://github.com/CLD2Owners/cld2"><u>Compact
+              Language Detect 2 (CLD2)</u></a>. We compare the output of CLD2 with language tags specified at the tag
+          level and file level.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p>
+      </li>
+      <li id="fn4">
+        <p>
+          <i>Guidelines for remediation tools producers</i>, Released on 2024, April the 25th. Diffusion: Public.
+          Available as HTML, EPUB and PDF at <a
+            href="https://github.com/ABELaboratory/publications/deliverables/guidelines-remediation-tools-producers"><u>https://abelab.eu/outcomes/deliverables/guidelines-remediation-tools-producers</u></a><a
+            href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a>
+        </p>
+      </li>
+      <li id="fn5">
+        <p>For a complete and detailed list of the most recurrent accessibility issues detected, see <i>Recurrent
+            accessibility issues detected</i>, in “Gap analysis”, ABE Lab, <a
+            href="https://www.abelab.eu/outcomes/gap_analysis/#recurrent-accessibility-issues-detected"><u>https://www.abelab.eu/outcomes/gap_analysis/#recurrent-accessibility-issues-detected</u></a><a
+            href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p>
+      </li>
+      <li id="fn6">
+        <p>
+          <i>Guidelines for remediation tools producers</i>, Released on 2024, April the 25th. Diffusion: Public.
+          Available as HTML, EPUB and PDF at <a
+            href="https://github.com/ABELaboratory/publications/deliverables/guidelines-remediation-tools-producers"><u>https://github.com/ABELaboratory/publications/deliverables/guidelines-remediation-tools-producers</u></a><a
+            href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a>
+        </p>
+      </li>
+    </ol>
+  </section>
+</body>
+
+</html>

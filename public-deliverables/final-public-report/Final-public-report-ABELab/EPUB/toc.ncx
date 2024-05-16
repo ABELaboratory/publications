@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx version="2005-1" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+  <head>
+    <meta name="dtb:uid" content="urn:uuid:589987e7-aac2-4c9e-911e-ec4a8384613a" />
+    <meta name="dtb:depth" content="1" />
+    <meta name="dtb:totalPageCount" content="0" />
+    <meta name="dtb:maxPageNumber" content="0" />
+    <meta name="cover" content="cover_jpg" />
+  </head>
+  <docTitle>
+    <text>ABELab Final Public Report</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="navPoint-0">
+      <navLabel>
+        <text></text>
+      </navLabel>
+      <content src="text/title_page.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-1">
+      <navLabel>
+        <text>Abstract</text>
+      </navLabel>
+      <content src="text/ch001.xhtml#abstract" />
+    </navPoint>
+    <navPoint id="navPoint-2">
+      <navLabel>
+        <text>Context</text>
+      </navLabel>
+      <content src="text/ch002.xhtml#context" />
+      <navPoint id="navPoint-3">
+        <navLabel>
+          <text>What is accessibility?</text>
+        </navLabel>
+        <content src="text/ch002.xhtml#markwhat-is-accessibilitymark" />
+      </navPoint>
+      <navPoint id="navPoint-4">
+        <navLabel>
+          <text>What are remediation tools?</text>
+        </navLabel>
+        <content src="text/ch002.xhtml#what-are-remediation-tools" />
+      </navPoint>
+      <navPoint id="navPoint-5">
+        <navLabel>
+          <text>The ABE Lab project</text>
+        </navLabel>
+        <content src="text/ch002.xhtml#mark6the-abe-lab-projectmark" />
+        <navPoint id="navPoint-6">
+          <navLabel>
+            <text>Objectives and expected impacts of the project</text>
+          </navLabel>
+          <content src="text/ch002.xhtml#markobjectives-and-expected-impacts-of-the-projectmark" />
+        </navPoint>
+        <navPoint id="navPoint-7">
+          <navLabel>
+            <text>The partners</text>
+          </navLabel>
+          <content src="text/ch002.xhtml#mark7the-partnersmark" />
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-8">
+      <navLabel>
+        <text>Activities</text>
+      </navLabel>
+      <content src="text/ch003.xhtml#activities" />
+      <navPoint id="navPoint-9">
+        <navLabel>
+          <text>Project management (WP1)</text>
+        </navLabel>
+        <content src="text/ch003.xhtml#project-management-wp1" />
+      </navPoint>
+      <navPoint id="navPoint-10">
+        <navLabel>
+          <text>Analysis of the composition of ebook backlists in Europe (WP2)</text>
+        </navLabel>
+        <content src="text/ch003.xhtml#mark9analysis-of-the-composition-of-ebook-backlists-in-europe-wp2mark" />
+        <navPoint id="navPoint-11">
+          <navLabel>
+            <text>Backlist Data</text>
+          </navLabel>
+          <content src="text/ch003.xhtml#markbacklist-datamark" />
+        </navPoint>
+        <navPoint id="navPoint-12">
+          <navLabel>
+            <text>Gap Analysis</text>
+          </navLabel>
+          <content src="text/ch003.xhtml#markgap-analysismark" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-13">
+        <navLabel>
+          <text>Analysis of remediation processes and workflows (WP3)</text>
+        </navLabel>
+        <content src="text/ch003.xhtml#mark10analysis-of-remediation-processes-and-workflows-wp3mark" />
+      </navPoint>
+      <navPoint id="navPoint-14">
+        <navLabel>
+          <text>Analysis of remediation costs (WP4)</text>
+        </navLabel>
+        <content src="text/ch003.xhtml#mark11analysis-of-remediation-costs-wp4mark" />
+      </navPoint>
+      <navPoint id="navPoint-15">
+        <navLabel>
+          <text>Communication and Dissemination (WP5)</text>
+        </navLabel>
+        <content src="text/ch003.xhtml#markcommunication-and-dissemination-wp5mark" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-16">
+      <navLabel>
+        <text>Findings: a diverse ecosystem</text>
+      </navLabel>
+      <content src="text/ch004.xhtml#findings-a-diverse-ecosystem" />
+      <navPoint id="navPoint-17">
+        <navLabel>
+          <text>High variability of available data</text>
+        </navLabel>
+        <content src="text/ch004.xhtml#high-variability-of-available-data" />
+      </navPoint>
+      <navPoint id="navPoint-18">
+        <navLabel>
+          <text>The European backlist is not homogeneous </text>
+        </navLabel>
+        <content src="text/ch004.xhtml#the-european-backlist-is-not-homogeneous" />
+      </navPoint>
+      <navPoint id="navPoint-19">
+        <navLabel>
+          <text>Developments go slow</text>
+        </navLabel>
+        <content src="text/ch004.xhtml#mark15developments-go-slowmark" />
+        <navPoint id="navPoint-20">
+          <navLabel>
+            <text>Conversion tools as options for remediation</text>
+          </navLabel>
+          <content src="text/ch004.xhtml#markconversion-tools-as-options-for-remediationmark" />
+        </navPoint>
+        <navPoint id="navPoint-21">
+          <navLabel>
+            <text>Few open-source tools and documentation about automation are available</text>
+          </navLabel>
+          <content src="text/ch004.xhtml#markfew-markopen-sourcemark-tools-and-markdmarkocumentation-about-automatmarkionmark-markare-markavailablemark" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-22">
+        <navLabel>
+          <text>Is there a market for remediation tools?</text>
+        </navLabel>
+        <content src="text/ch004.xhtml#is-there-a-market-for-remediation-tools" />
+        <navPoint id="navPoint-23">
+          <navLabel>
+            <text>Post conversion over born accessible</text>
+          </navLabel>
+          <content src="text/ch004.xhtml#post-cmarkonversion-over-born-accessiblemark" />
+        </navPoint>
+        <navPoint id="navPoint-24">
+          <navLabel>
+            <text>External expertise</text>
+          </navLabel>
+          <content src="text/ch004.xhtml#markexternal-expertisemark" />
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-25">
+      <navLabel>
+        <text>Outcomes: methods and guidelines</text>
+      </navLabel>
+      <content src="text/ch005.xhtml#outcomes-methods-and-guidelines" />
+      <navPoint id="navPoint-26">
+        <navLabel>
+          <text>Recurrent accessibility issues </text>
+        </navLabel>
+        <content src="text/ch005.xhtml#recurrent-accessibility-issues" />
+        <navPoint id="navPoint-27">
+          <navLabel>
+            <text>Test suite</text>
+          </navLabel>
+          <content src="text/ch005.xhtml#test-suite" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-28">
+        <navLabel>
+          <text>For publishers</text>
+        </navLabel>
+        <content src="text/ch005.xhtml#mark19for-publishersmark" />
+        <navPoint id="navPoint-29">
+          <navLabel>
+            <text>How to triage files?</text>
+          </navLabel>
+          <content src="text/ch005.xhtml#markhow-to-triage-filesmark" />
+        </navPoint>
+        <navPoint id="navPoint-30">
+          <navLabel>
+            <text>How to evaluate cost?</text>
+          </navLabel>
+          <content src="text/ch005.xhtml#mark20how-to-evaluate-costmark" />
+        </navPoint>
+        <navPoint id="navPoint-31">
+          <navLabel>
+            <text>When to start remediation?</text>
+          </navLabel>
+          <content src="text/ch005.xhtml#markwhen-to-start-remediationmark" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-32">
+        <navLabel>
+          <text>For tool producers</text>
+        </navLabel>
+        <content src="text/ch005.xhtml#mark22for-tool-producersmark" />
+        <navPoint id="navPoint-33">
+          <navLabel>
+            <text>Check your tool functionalities</text>
+          </navLabel>
+          <content src="text/ch005.xhtml#markcheck-your-tool-functionalitiesmark" />
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-34">
+      <navLabel>
+        <text>Leveraging impacts</text>
+      </navLabel>
+      <content src="text/ch006.xhtml#leveraging-impacts" />
+      <navPoint id="navPoint-35">
+        <navLabel>
+          <text>Consistent data collection and analysis methodology</text>
+        </navLabel>
+        <content src="text/ch006.xhtml#consistent-data-collection-and-analysis-methodology" />
+      </navPoint>
+      <navPoint id="navPoint-36">
+        <navLabel>
+          <text>Classification wizard service</text>
+        </navLabel>
+        <content src="text/ch006.xhtml#classification-wizard-service" />
+      </navPoint>
+      <navPoint id="navPoint-37">
+        <navLabel>
+          <text>Enhanced workflow documentation</text>
+        </navLabel>
+        <content src="text/ch006.xhtml#enhanced-workflow-documentation" />
+      </navPoint>
+      <navPoint id="navPoint-38">
+        <navLabel>
+          <text>Research on AI</text>
+        </navLabel>
+        <content src="text/ch006.xhtml#research-on-ai" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-39">
+      <navLabel>
+        <text>Appendix</text>
+      </navLabel>
+      <content src="text/ch007.xhtml#appendix" />
+      <navPoint id="navPoint-40">
+        <navLabel>
+          <text>Industry facts to know</text>
+        </navLabel>
+        <content src="text/ch007.xhtml#industry-facts-to-know" />
+      </navPoint>
+      <navPoint id="navPoint-41">
+        <navLabel>
+          <text>Key points to assess the knowledge of collections</text>
+        </navLabel>
+        <content src="text/ch007.xhtml#key-points-to-assess-the-knowledge-of-collections" />
+      </navPoint>
+    </navPoint>
+  </navMap>
+</ncx>
