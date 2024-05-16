@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="en-gb" lang="en-gb">
+<head>
+    <meta charset="utf-8"/>
+    
+    <title>Part 4 - Evaluate the remediation functionalities of your tool</title>
+   
+    <link rel="stylesheet" type="text/css" href="../styles/blitz_abelab.css"/>
+  </head>
+
+  <body epub:type="bodymatter">
+    <section id="part-4---evaluate-the-remediation-functionalities-of-your-tool" class="level1" role="doc-chapter">
+      <span epub:type="pagebreak" role="doc-pagebreak" id="page22" aria-label="22">
+      </span>
+      <h1>Part 4 - Evaluate the remediation functionalities of your tool</h1>
+      <p>Evaluating a tool is a complex activity and involves multifaceted aspects. One of these is represented by the expectations of those who evaluate the instrument, which in turn largely depends on their specific needs. A tool could be evaluated on the basis of the results it allows to obtain even when used by non-expert users, while in other cases, what is sought is a tool capable of integrating effectively and fluidly into existing workflows and which therefore potentially requires advanced coding and programming skills. The ideal solution may also be platforms or programs that allow making batch modifications to large quantities of files. Combining such broad and varied expectations would make a complex checklist. Hence, the checklists we prepared focus on the features related to the most recurring accessibility issues highlighted by the gap analysis performed in the context of the ABE Lab project.</p>
+      <p>To facilitate the selection of tools by publishers, stakeholders or service providers, we encourage producers of tools to detail as much as possible the approach they adopt and the targets the tools are aimed at. This includes almost all aspects detailed in part 3 of this document, which refers to the information that should be provided to the customers and the final users. Since these points represent additional information and are on a different level compared to the functionalities necessary to improve the accessibility of ebooks according to the accessibility requirements, they are not included in the evaluation checklists reported in part 4 of this white paper.</p>
+      <p>These checklists can be used as methodological support to obtain a clearer view of the current state of a remediation tool. They want to help stakeholders, remediation tools producers and developers to check the state of the art of their tools and to plan future developments.</p>
+      <p>However, <strong>they do not claim to be a complete and definitive list to assess the quality or completeness of a remediation tool, and meeting all the points in the list does not guarantee that the remediated files will be fully accessible and compliant with the requirements of the EAA and international accessibility guidelines.</strong></p>
+      <p>It’s also important to highlight that they might not be maintained in the future. Therefore, <strong>they can not be used to claim a level of conformity and</strong><em><strong>must not be used as a marketing or commercial argument</strong></em>.</p>
+      <p>The points of the checklists, as well as the content of the guidelines described in part 2 of this document, are high-level indications that can be relevant for remediation tools regardless of the input file format.</p>
+      <p>Given that most ebooks are produced in EPUB and PDF and those two formats have important differences, we have decided to provide a separate checklist for EPUB and PDF, even if this means that many checkpoints appear in both checklists.</p>
+      <p>For other formats like Apps or HTML-based books that can be found in some markets like France (where they represent 18% of the ebooks) and Spain (25%), remediation to mainstream EPUB format should be considered the best solution, and EPUB Accessibility 1.1 should be considered the reference  <span epub:type="pagebreak" role="doc-pagebreak" id="page23" aria-label="23">
+      </span>point for accessibility. If it is not possible, WCAG will apply, along with the accessibility requirements set by the EAA.</p>
+      <p>The gap analysis, and especially the recurrent accessibility issues detected, provide a list of the most commonly found issues that should be addressed by any remediation tool.</p>
+      <section id="for-epubs" class="level2">
+        <span epub:type="pagebreak" role="doc-pagebreak" id="page24" aria-label="24">
+        </span>
+        <h2 id="sigil_toc_id_33">For EPUBs</h2>
+        <section id="epub-version" class="level3 Titolo-3-sezione-linee-guida">
+          <h3 class="Titolo-3-sezione-linee-guida" id="sigil_toc_id_34">EPUB Version</h3>
+          <ul>
+            <li>
+              <p>Does the tool check the EPUB version of the file?</p>
+            </li>
+            <li>
+              <p>Does the tool automatically update an EPUB 2 to an EPUB 3?</p>
+            </li>
+            <li>
+              <p>Does the tool accept files with EPUBcheck errors?</p>
+            </li>
+            <li>
+              <p>Does the tool warn of the presence of past proprietary technologies?</p>
+            </li>
+          </ul>
+        </section>
+        <section id="market-validators" class="level3 Titolo-3-sezione-linee-guida">
+          <h3 class="Titolo-3-sezione-linee-guida" id="sigil_toc_id_35">Market validators</h3>
+          <ul>
+            <li>
+              <p>Does the tool use the last version of EPUBcheck?</p>
+            </li>
+            <li>
+              <p>Does the tool use the last version of ACE by DAISY?</p>
+            </li>
+          </ul>
+        </section>
+        <section id="metadata" class="level3 Stile1">
+          <h3 class="Stile1" id="sigil_toc_id_36">Metadata</h3>
+          <ul>
+            <li>
+              <p>Does the tool detect missing accessibility metadata?</p>
+            </li>
+            <li>
+              <p>Does the tool check if the accessibility metadata are correct?</p>
+            </li>
+            <li>
+              <p>Is it possible to review accessibility metadata?</p>
+            </li>
+            <li>
+              <p>Does the tool automatically generate accessibility metadata?</p>
+            </li>
+            <li>
+              <p>Is it possible to add accessibility metadata?</p>
+            </li>
+          </ul>
+        </section>
+        <section id="graphical-resources" class="level3 Titolo-3-sezione-linee-guida">
+          <h3 class="Titolo-3-sezione-linee-guida" id="sigil_toc_id_37">Graphical resources</h3>
+          <ul>
+            <li>
+              <p>Is it possible to add alternative text for images and informative graphical content?</p>
+            </li>
+            <li>
+              <p>Is it possible to detect non-decorative images without alternative text?</p>
+            </li>
+            <li>
+              <p>Is it possible to mark an image as decorative?</p>
+            </li>
+            <li>
+              <p>Does the tool provide a way to review the images and their associated alternative text?</p>
+            </li>
+            <li>
+              <p>Does the tool provide a way to properly associate an image with its caption?</p>
+            </li>
+            <li>
+              <p>Does the tool provide a way to add long and structured descriptions linked to an image?</p>
+            </li>
+          </ul>
+        </section>
+        <section id="styling-and-aspects" class="level3 Titolo-3-sezione-linee-guida">
+          <h3 class="Titolo-3-sezione-linee-guida" id="sigil_toc_id_38">Styling and aspects</h3>
+          <ul>
+            <li>
+              <p>Does the tool provide a colour contrast checker to check the contrast of the text and its backgrounds?</p>
+            </li>
+            <li>
+              <p>Does the tool detect styles and properties that prevent textual contents to correctly reflow?</p>
+            </li>
+            <li>
+              <p>Does the tool provide an editor to define the style of the content?</p>
+            </li>
+          </ul>
+        </section>
+        <section id="textual-content" class="level3 Titolo-3-sezione-linee-guida">
+          <h3 class="Titolo-3-sezione-linee-guida" id="sigil_toc_id_39">Textual content</h3>
+          <ul>
+            <li>
+              <p>Is it possible to set the main language of the content?</p>
+            </li>
+            <li>
+              <p>Is it possible to set the language for words, phrases and passages of text?</p>
+            </li>
+            <li>
+              <p> <span epub:type="pagebreak" role="doc-pagebreak" id="page25" aria-label="25">
+              </span>Does the tool automatically recognize the language of the content and assign the correct value to the xml:lang and lang attributes?</p>
+            </li>
+          </ul>
+        </section>
+        <section id="publication-structure" class="level3 Titolo-3-sezione-linee-guida">
+          <h3 class="Titolo-3-sezione-linee-guida" id="sigil_toc_id_40">Publication structure</h3>
+          <ul>
+            <li>
+              <p>Is it possible to identify a text as a heading of the appropriate level?</p>
+            </li>
+            <li>
+              <p>Does the tool detect incorrect heading nesting?</p>
+            </li>
+            <li>
+              <p>Does the tool provide a way to review the headings hierarchy?</p>
+            </li>
+            <li>
+              <p>Is it possible to set the value for the &lt;title&gt; tag for EPUB Content Documents?</p>
+            </li>
+            <li>
+              <p>Does the tool detect empty &lt;title&gt; tags for EPUB Content Documents?</p>
+            </li>
+            <li>
+              <p>Is it possible to assign semantic tags (e.g. order and unordered lists) to the content?</p>
+            </li>
+            <li>
+              <p>Does the tool detect missing or incorrect (DPUB) ARIA roles?</p>
+            </li>
+            <li>
+              <p>Is it possible to edit (DPUB) ARIA roles?</p>
+            </li>
+            <li>
+              <p>Does the tool propose a mapping for epub:types to ARIA Roles?</p>
+            </li>
+          </ul>
+        </section>
+        <section id="tables" class="level3 Titolo-3-sezione-linee-guida">
+          <h3 class="Titolo-3-sezione-linee-guida" id="sigil_toc_id_41">Tables</h3>
+          <ul>
+            <li>
+              <p>Does the tool detect missing or empty table headers?</p>
+            </li>
+            <li>
+              <p>Is it possible to identify table cells as row or column headers?</p>
+            </li>
+            <li>
+              <p>Does the tool provide a way to properly associate a table with its caption?</p>
+            </li>
+          </ul>
+        </section>
+        <section id="navigation" class="level3 Titolo-3-sezione-linee-guida">
+          <h3 class="Titolo-3-sezione-linee-guida" id="sigil_toc_id_42">Navigation</h3>
+          <ul>
+            <li>
+              <p>Does the tool detect a broken pagelist?</p>
+            </li>
+            <li>
+              <p>Is it possible to edit page numbers and the page list?</p>
+            </li>
+            <li>
+              <p>Does the tool detect non unique landmarks?</p>
+            </li>
+            <li>
+              <p>Is it possible to edit landmarks?</p>
+            </li>
+            <li>
+              <p>Does the tool detect incorrect TOC (table of content) order?</p>
+            </li>
+            <li>
+              <p>Is it possible to edit the TOC?</p>
+            </li>
+          </ul>
+        </section>
+        <section id="links" class="level3 Titolo-3-sezione-linee-guida">
+          <h3 class="Titolo-3-sezione-linee-guida" id="sigil_toc_id_43">Links</h3>
+          <ul>
+            <li>
+              <p>Does the tool detect a broken link?</p>
+            </li>
+            <li>
+              <p>Is it possible to edit links?</p>
+            </li>
+            <li>
+              <p>Does the tool detect potentially non meaningful text for the links or empty links?</p>
+            </li>
+            <li>
+              <p>Is it possible to edit the textual label of a link (the name with which a link is displayed)?</p>
+            </li>
+          </ul>
+        </section>
+        <section id="rare-content-multimedia-and-scripts" class="level3 Titolo-3-sezione-linee-guida">
+          <span epub:type="pagebreak" role="doc-pagebreak" id="page26" aria-label="26">
+          </span>
+          <h3 class="Titolo-3-sezione-linee-guida" id="sigil_toc_id_44">Rare content (Multimedia and scripts)</h3>
+          <ul>
+            <li>
+              <p>Does the tool warn the user if the file contains multimedia elements (e.g audio, video)?</p>
+            </li>
+            <li>
+              <p>Does the tool warn the user if the file contains scripts?</p>
+            </li>
+          </ul>
+        </section>
+      </section>
+      <section id="for-pdfs" class="level2">
+        <span epub:type="pagebreak" role="doc-pagebreak" id="page27" aria-label="27">
+        </span>
+        <h2 id="sigil_toc_id_45">For PDFs</h2>
+        <section id="market-validators-1" class="level3 Titolo-3-sezione-linee-guida">
+          <h3 class="Titolo-3-sezione-linee-guida" id="sigil_toc_id_46">Market validators</h3>
+          <ul>
+            <li>
+              <p>Does the tool use a PDF/UA validator?</p>
+            </li>
+          </ul>
+        </section>
+        <section id="metadata-1" class="level3 Titolo-3-sezione-linee-guida">
+          <h3 class="Titolo-3-sezione-linee-guida" id="sigil_toc_id_47">Metadata</h3>
+          <ul>
+            <li>
+              <p>Is it possible to add the <em>title</em> metadata?</p>
+            </li>
+          </ul>
+        </section>
+        <section id="graphical-resources-1" class="level3 Titolo-3-sezione-linee-guida">
+          <h3 class="Titolo-3-sezione-linee-guida" id="sigil_toc_id_48">Graphical resources</h3>
+          <ul>
+            <li>
+              <p>Is it possible to add alternative text for images and informative graphical content?</p>
+            </li>
+            <li>
+              <p>Is it possible to detect non-decorative images without alternative text?</p>
+            </li>
+            <li>
+              <p>Is it possible to mark an image as decorative?</p>
+            </li>
+            <li>
+              <p>Does the tool provide a way to review the images and their associated alternative text?</p>
+            </li>
+            <li>
+              <p>Does the tool provide a way to properly associate an image with its caption?</p>
+            </li>
+          </ul>
+        </section>
+        <section id="styling-and-aspects-1" class="level3 Titolo-3-sezione-linee-guida">
+          <h3 class="Titolo-3-sezione-linee-guida" id="sigil_toc_id_49">Styling and aspects</h3>
+          <ul>
+            <li>
+              <p>Does the tool provide a colour contrast checker to check the contrast of the text and its backgrounds?</p>
+            </li>
+          </ul>
+        </section>
+        <section id="textual-content-1" class="level3 Titolo-3-sezione-linee-guida">
+          <h3 class="Titolo-3-sezione-linee-guida" id="sigil_toc_id_50">Textual content</h3>
+          <ul>
+            <li>
+              <p>Is it possible to set the main language of the content?</p>
+            </li>
+            <li>
+              <p>Is it possible to set the language for phrases and passages of text?</p>
+            </li>
+            <li>
+              <p>Does the tool automatically recognize the language of the content and assign the correct language attribute?</p>
+            </li>
+          </ul>
+        </section>
+        <section id="document-structure" class="level3 Titolo-3-sezione-linee-guida">
+          <h3 class="Titolo-3-sezione-linee-guida" id="sigil_toc_id_51">Document structure</h3>
+          <ul>
+            <li>
+              <p>Is it possible to identify a text as a heading of the appropriate level?</p>
+            </li>
+            <li>
+              <p>Does the tool detect incorrect heading nesting?</p>
+            </li>
+            <li>
+              <p>Does the tool provide a way to review the headings hierarchy?</p>
+            </li>
+            <li>
+              <p>Is it possible to assign semantic tags (e.g. order and unordered lists) to the content?</p>
+            </li>
+          </ul>
+        </section>
+      </section>
+    </section>
+</body>
+</html>

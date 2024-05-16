@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="en-gb" lang="en-gb">
+<head>
+    <meta charset="utf-8"/>
+    
+    <title>Part 3 - Informing users to help them making the right choice</title>
+
+    <link rel="stylesheet" type="text/css" href="../styles/blitz_abelab.css"/>
+
+  </head>
+
+  <body epub:type="bodymatter">
+    <section id="part-3---informing-users-to-help-them-making-the-right-choice" class="level1" role="doc-chapter">
+      <span epub:type="pagebreak" role="doc-pagebreak" id="page18" aria-label="18">
+      </span>
+      <h1>Part 3 - Informing users to help them making the right choice</h1>
+      <section id="epub-accessibility-wcag-pdfua-eaa-ada-which-target" class="level2">
+        <h2 id="sigil_toc_id_23">EPUB Accessibility, WCAG, PDF/UA, EAA, ADA,: which target?</h2>
+        <p>Juggling standard acronyms and regulatory references can be complicated. It should be stated in the documentation of the remediation tool or on the official website what accessibility standard the remediated files can achieve compliance with. This naturally depends on the functions of the tool and on how many and which accessibility problems it allows to solve. It must be possible to output a file that actually complies with the requirements of the indicated standard or regulation.</p>
+      </section>
+      <section id="simple-or-complex-text" class="level2">
+        <h2 id="sigil_toc_id_24">Simple or complex text?</h2>
+        <p>Books of different types (fiction, biographies, law, children's books, art books, …) often have very different complexity of structure and layout. Fixing a text-only book doesn't require as much effort as a book with a complex layout. Remediating a STEM book requires specific features, such as for example an editor to add mathematical or chemical formulas in an accessible format (like MathML for EPUB, or LaTeX for PDF). Providing clear indications allows publishers and operators in the publishing chain to choose the remediation tool best suited to their needs.</p>
+      </section>
+      <section id="formats-of-input-and-output" class="level2">
+        <h2 id="sigil_toc_id_25">Formats of input and output</h2>
+        <p>Usually remediation tools do not support all ebook formats, but only some. This information is generally included in the presentation and description of the tool, but it is worth mentioning this aspect also in this context: it must be clear which input formats are accepted and which remediation processes are supported, i.e. which formats are obtained in output. For example, we can have remediation solutions that only accept PDF as input, and can output only PDF or Fixed Layout EPUB, but not accessible reflowable EPUB. This is a key aspect that must be declared.</p>
+        <p>Not only that: for ebooks in EPUB format it is necessary to specify how the tool behaves with older files, and whether these are correctly accepted as input and can be worked on successfully. EPUBs produced and distributed in past years may not be valid if checked with the latest version of EPUBCheck<a href="#fn1" class="footnote-ref" id="fnref1" epub:type="noteref" role="doc-noteref"><sup>1</sup></a>. For this reason it is necessary to specify the minimum version of EPUBCheck according to which the input file must be valid.</p>
+      </section>
+      <section id="different-tools-different-targets-different-workflows" class="level2">
+        <h2 id="sigil_toc_id_26">Different tools, different targets, different workflows</h2>
+        <p>Since remediation tools can take many different forms and have different levels of complexity, it is important to clearly identify which kind of audience of operators the tool is aimed at.</p>
+        <p>In fact, it must be considered that the remediation of ebooks could be done by actors in the publishing chain with skills that can be very variable: the remediation can be done by technicians or  <span epub:type="pagebreak" role="doc-pagebreak" id="page19" aria-label="19">
+        </span>by operators with a more editorial training. Knowing whether the tool requires technical skills or whether it can also be used by non-expert operators is important information for the user.</p>
+        <p>The level of expertise required is closely linked to the type of tool and the way in which it can be integrated into the publishing house's ebook remediation workflows. Solutions provided as APIs or SDKs require specific technical and IT skills; instead, tools that have a user-friendly graphical interface could be easily used even by those who do not possess these technical skills.</p>
+        <p>It is therefore important that this information is specified.</p>
+        <p>A versatile remediation tool should also allow the creation of user profiles of different types, with functionalities adapted based on the type of profile.</p>
+      </section>
+      <section id="support-and-documentation" class="level2">
+        <h2 id="sigil_toc_id_27">Support and documentation</h2>
+        <p>Providing clear, detailed documentation of how the remediation tool works and what it offers makes the work easier and faster. If the tool does not have any documentation it can be difficult to understand how the interface is structured, what the function of its components is, or what to do and which feature to use to obtain a certain result or correct a specific accessibility error. This information can be provided in various ways: a guide available online, downloadable or shared with licence subscribers, or one or more video tutorials. Providing clear directions on how to receive support or report problems is also helpful.</p>
+      </section>
+      <section id="a-safe-and-transparent-work-environment" class="level2">
+        <h2 id="sigil_toc_id_28">A safe and transparent work environment</h2>
+        <p>Ensuring the security of the working environment and the protection of user data, as well as of the information relating to ebooks processed within the tools and platforms, is an essential requirement. This aspect takes on even greater relevance when it comes to Artificial Intelligence and Machine Learning: there are more and more remediation tools that use these technologies and this often requires a training phase on a collection of ebooks with similar characteristics to those you want to remediate. This improves performance but also means that AI or ML models base their training on information extracted from the provided files. It is necessary to provide precise indications on how the files, their contents and the information obtained from their analysis will be used, and it must be declared whether they will be used to train Artificial Intelligence or Machine Learning models, including the models used by the tool.</p>
+        <p>None of the remediation tools analysed in the context of the ABE Lab project provided any information in this regard. Artificial Intelligence and Machine Learning were not mentioned in the "Terms and conditions of use," the "Privacy Policy," or the description of the licence to use the product.</p>
+        <p>While we recognize the need for developers to not disclose the technological details of their infrastructures and to maintain trade secrecy, those who share their content with these tools have the right to know what use will be made of it.</p>
+        <p>In addition, it must also be declared how long the files will be kept within the platform (for online platforms) and whether they will be permanently deleted once the user decides to delete them.</p>
+      </section>
+      <section id="type-of-licence-and-plan" class="level2">
+        <span epub:type="pagebreak" role="doc-pagebreak" id="page20" aria-label="20">
+        </span>
+        <h2 id="sigil_toc_id_29">Type of licence and plan</h2>
+        <p>A tool can be open source, freely available, or available with a paid plan or licence. Different formulas can be used: it can be a subscription plan, a "pay per project", a "project bundle" solution, or a one-time purchase.</p>
+        <p>Providing information on the options available and detailing what they include allows publishers and other operators in the publishing supply chain to choose the option that best suits their needs.</p>
+      </section>
+      <section id="what-else" class="level2">
+        <h2 id="sigil_toc_id_30">What else?</h2>
+        <section id="an-accessible-interface-is-an-added-value" class="level3">
+          <h3 id="sigil_toc_id_31">An accessible interface is an added value</h3>
+          <p>Although the objective of this document is not to provide guidance on the design, usability, and accessibility of remediation tools' graphical interfaces, it would be great if these were compliant with the requirements defined by the WCAG 2, the User Agent Accessibility Guidelines (UAAG)<a href="#fn2" class="footnote-ref" id="fnref2" epub:type="noteref" role="doc-noteref"><sup>2</sup></a>, and the technical standard EN 301 549. An accessible interface would represent an added value would make the remediation tool usable by many operators.</p>
+        </section>
+        <section id="dont-reinvent-the-wheel-few-open-source-tools-available" class="level3">
+          <h3 id="sigil_toc_id_32">Don’t reinvent the wheel: few open source tools available</h3>
+          <p>Regarding the availability of open source tools that can be securely incorporated into remediation workflows, we discovered a limited number of available solutions beyond the widely recognized conformance checkers such as EPUBCheck and ACE by DAISY.</p>
+          <p>These tools have become the industry standard and are already integrated into many publishers' production workflows. While incorporating these tools into workflows is a positive step, it's crucial to take note of the developers' disclaimer: <em>It is important to keep in mind that only a limited portion of accessibility checks can be automated, and therefore, Ace is not a complete accessibility conformance evaluation tool; instead, it is an aid for a broader, human-driven evaluation process.</em></p>
+          <p>The lack of recognized tools is somewhat worrying, as it suggests that most accessibility issues are addressed using in-house developed solutions. This results in redundant efforts when it comes to selecting and evaluating the quality of remediation operations.</p>
+          <p>The availability of open source solutions does not imply that remediation tools necessarily have to use them, but knowing what the open source community has already produced can be a good starting point when designing and developing, especially if these products are actively maintained and updated.</p>
+          <p>All primary areas of software development extensively utilise existing components provided by the open source ecosystem. It is vital to the software development landscape, offering scalability, <span epub:type="pagebreak" role="doc-pagebreak" id="page21" aria-label="21">
+          </span>flexibility, and robustness. It helps everyone in the ecosystem save time and money, enhance quality and security, foster innovation and collaboration, and gain a competitive edge in the market.</p>
+        </section>
+      </section>
+    </section>
+    <section id="footnotes" class="footnotes footnotes-end-of-document" epub:type="footnotes">
+      <hr/>
+      <aside epub:type="footnote" role="doc-footnote" id="fn1">
+        <p>
+          <a href="#fnref1" class="footnote-back" role="doc-backlink">1</a>. EPUBCheck is an open source W3C project, maintained by the DAISY Consortium, that evaluates EPUB publications against the official EPUB specifications. More information available at: <a href="https://www.w3.org/publishing/epubcheck/">https://www.w3.org/publishing/epubcheck/</a></p>
+      </aside>
+      <aside epub:type="footnote" role="doc-footnote" id="fn2">
+        <p>
+          <a href="#fnref2" class="footnote-back" role="doc-backlink">2</a>. User Agent Accessibility Guidelines (UAAG) 2.0, W3C Working Group, 15 December 2015, <a href="https://www.w3.org/WAI/standards-guidelines/uaag/">https://www.w3.org/WAI/standards-guidelines/uaag/</a></p>
+      </aside>
+    </section>
+</body>
+</html>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="en-gb" lang="en-gb">
+<head>
+    <meta charset="utf-8"/>
+    
+    <title>Part 2 - Guidelines for remediation tools developers</title>
+
+    <link rel="stylesheet" type="text/css" href="../styles/blitz_abelab.css"/>
+
+  </head>
+
+  <body epub:type="bodymatter">
+    <section id="part-2---guidelines-for-remediation-tools-developers" class="level1" role="doc-chapter">
+      <span epub:type="pagebreak" role="doc-pagebreak" id="page11" aria-label="11">
+      </span>
+      <h1>Part 2 - Guidelines for remediation tools developers</h1>
+      <p>The following guidelines present indications of different types: some strictly concern the functioning of the remediation tool, while others concern the information that developers should provide to allow an informed and adequate choice by those who have to fix the accessibility of the ebooks in their backlist. The applicability or otherwise of a guideline to a specific tool may depend on the technological characteristics of the tool itself - for example, for tools that work from the command line, guidelines that imply the presence of a graphical interface are not relevant. The functionalities detailed in the following sections might be implemented in a variety of ways: automatic, semi-automatic or manual.</p>
+      <section id="what-should-a-remediation-tool-do" class="level2">
+        <h2 id="sigil_toc_id_9">What should a remediation tool do?</h2>
+        <section id="find-fix-check-the-three-key-aspects-of-accessibility-remediation" class="level3">
+          <h3 id="sigil_toc_id_10">Find, fix, check: the three key aspects of accessibility remediation</h3>
+          <p>To solve an accessibility problem, it is first necessary to identify it, and then understand its impact and how to correct it. To support the human operators, the remediation tool should identify the accessibility problem, report it to the users, and guide them in its correction by providing dedicated options to do so.</p>
+          <p>For the remediation to be effective, the tools should therefore:</p>
+          <ul>
+            <li>
+              <p>find the accessibility issues contained in the ebook;</p>
+            </li>
+            <li>
+              <p>provide a way for correcting the identified accessibility issues, for example, via dedicated options;</p>
+            </li>
+            <li>
+              <p>check the conformance of the file to ensure the output will be valid with the file format specification and compliant with the target accessibility guidelines or standards. Accessibility checks carried out before export, or at the request of the operator, are also strategically important to ensure that the ebook does not have accessibility problems before it is exported and checked with external tools.</p>
+            </li>
+          </ul>
+          <p>These activities should not be interpreted as steps that must be performed in a predefined sequence in the remediation process, but rather as three fundamental aspects that should be implemented by remediation tools to provide comprehensive support and ensure a quality output.</p>
+        </section>
+        <section id="in-tool-support" class="level3">
+          <h3 id="sigil_toc_id_11">In-tool support</h3>
+          <p>There should be attention to providing as much support as possible to guide the human operators in fixing the accessibility errors, with the aim of reducing the number of iterations needed to the minimum.</p>
+          <p>Even if some accessibility problems can be effectively solved automatically, a report of all automatic operations run should always be provided and manual evaluation and intervention should always be possible.</p>
+          <p> <span epub:type="pagebreak" role="doc-pagebreak" id="page12" aria-label="12">
+          </span>For actions where no automatic intervention is done, there should be guidance to allow the human operator to manually fix the accessibility issues of the files, for example providing dedicated menus, popups, options, in-tool guidance, ad-hoc functionalities.</p>
+          <p>Providing a code editor (such as an HTML editor for EPUB remediation tools) can be an option, but this solution requires the human operator to have a technical knowledge and although it can be really useful, this alone doesn’t provide it itself much guidance and support.</p>
+        </section>
+        <section id="improve-dont-disrupt" class="level3">
+          <h3 id="sigil_toc_id_12">Improve, don't disrupt</h3>
+          <p>The remediation tool must not cause a loss of information, must not add accessibility errors and must not compromise the technical integrity of the file. This may seem obvious, yet we have encountered tools whose solutions to correct accessibility errors generated others, making the file invalid; in other cases the output files, although passing the tool's internal validation, were reported by other software and applications as “corrupt” and thus not readable. In these cases it is not a question of accessibility, but rather of formal validity of the output and compliance with the standards that define the file format itself.</p>
+        </section>
+        <section id="what-about-multimedia-resources-scripts-forms-and-formulas" class="level3">
+          <h3 id="sigil_toc_id_13">What about multimedia resources, scripts, forms, and formulas?</h3>
+          <p>Multimedia elements (audio and video) are quite rare in digital books. The same goes for specific contents like form fields, scripts, and buttons, which could be used to create interactive components. Users of the tool need to know in advance whether audio, video, interactive forms (and therefore JavaScript) or formulas tagged with MathML are correctly imported into the tool and can also be retained in the output ebook when this content is present in the publication to be remediated. Support for these elements must be made explicit in the documentation or in the official channels of the tool, to avoid a loss of content and functionality of the ebook.</p>
+          <p>These elements must meet specific accessibility requirements. Tools that provide support for them should at least notify the human operators that such special content exists in the ebook, to allow them to find them and check them to verify if specific activities with dedicated tools are needed. In fact, making these components accessible may not be one of the purposes and functions of digital publishing dedicated tools. For example, audio and video content require a textual alternative (caption or transcription), which can be done with solutions for creating accessible multimedia content.</p>
+          <p>Whether they can be fixed in-tool or with external additional technologies, for an ebook to actually comply with accessibility requirements, audio and video, as well the other special content, must also be taken into consideration.</p>
+        </section>
+        <section id="maintaining-the-look-feel-vs-resetting-the-styles" class="level3">
+          <h3 id="sigil_toc_id_14">Maintaining the look &amp; feel vs resetting the styles</h3>
+          <p>When it comes to converting a PDF into an accessible PDF, we expect the original layout and design to be maintained: fonts, colours and graphic elements are not affected during the remediation phase, and the accessible file respects the graphics of the source file. There may be cases in which a  <span epub:type="pagebreak" role="doc-pagebreak" id="page13" aria-label="13">
+          </span>reflowable EPUB presents graphic characteristics that would also be desired to be maintained in the accessible reflowable EPUB. Maintaining the <em>look &amp; feel</em> of the inaccessible input file may not always be the desired solution for publishers, for example if the goal is to turn the PDF into an accessible reflowable EPUB.</p>
+          <p>It is therefore important to specify whether the tool removes by default all the graphic properties of the input file, thus returning black and white text and assigning predefined styles to the text components (headings, bold, italics, links, …), whether these are maintained, or whether it is possible to choose which solution to apply. In some cases, specific fonts are necessary to represent special characters. If styles are automatically removed and replaced, these characters may no longer be represented correctly, resulting in a loss of content.</p>
+          <p>Maintaining the graphics may also imply maintaining accessibility errors related to colour contrasts or the use of colour alone to convey information. To solve this problem, a possible solution is to allow manual editing of styles or provide image or graphics editors inside the tool itself or as external linked resources.</p>
+          <p>No solution is intrinsically better than the other, but the user must be informed.</p>
+        </section>
+        <section id="functionalities-to-fix-accessibility-issues" class="level3">
+          <h3 id="sigil_toc_id_15">Functionalities to fix accessibility issues</h3>
+          <p>An ebook can contain many different types of accessibility errors. By analysing a sample of backlist files, we found that some accessibility problems recur with particular frequency<a href="#fn1" class="footnote-ref" id="fnref1" epub:type="noteref" role="doc-noteref"><sup>1</sup></a>.</p>
+          <p>Based on these results, and by analysing the characteristics of the remediation tools tested in the context of the project, we have identified a series of features that we deem important to remediate backlist ebooks.</p>
+          <section id="adding-accessibility-metadata" class="level4">
+            <h4 id="sigil_toc_id_16">Adding accessibility metadata</h4>
+            <p>The lack of accessibility metadata, required by both EPUB Accessibility 1.1 and the EAA, is an error that was found in 100% of the backlist EPUB analysed. Accessibility metadata can be created by publishers or by a third-party certifier who checks the file and certifies it if accessible. Just as it is usually possible to set the general metadata of the document, such as title and author, it should also be possible to specify the accessibility metadata of the ebook as required by the EPUB Accessibility, therefore using the metadata defined in the Schema.org standard. In this regard, a remediation tool should:</p>
+            <ul>
+              <li>
+                <p>
+                  <em>
+                   detect missing accessibility metadata.</em> The lack of accessibility metadata can be easily detected with an automatic check;</p>
+              </li>
+              <li>
+                <p>
+                  <em>
+                  provide a way to add accessibility metadata
+                  </em>. This could be done, for example, adding an “Accessibility information” section in the general metadata panel, or including a specific menu item that the human operator can activate to open a popup to add them;</p>
+              </li>
+              <li>
+                <p> <span epub:type="pagebreak" role="doc-pagebreak" id="page14" aria-label="14">
+                </span>
+                  <em>
+                   allow to review accessibility metadata
+                  </em> - this is satisfied simply by making the accessibility metadata available for the human operators in the popup to add them.</p>
+              </li>
+            </ul>
+            <p>There are also other useful functionalities regarding accessibility metadata:</p>
+            <ul>
+              <li>
+                <p>
+                  <em>
+                   automatically create accessibility metadata
+                  </em> based on the analysis of the EPUB features;</p>
+              </li>
+              <li>
+                <p>
+                  <em>
+                   automatically check for correct accessibility metadata.</em> This would require the tool to compare the declared values of the accessibility metadata with the actual content of the file and warn the human operators if something seems incorrect.</p>
+              </li>
+            </ul>
+            <p>While accessibility metadata is a fundamental requirement for the accessibility of EPUB files, there is currently no defined standard for its support by the PDF format.</p>
+          </section>
+          <section id="alternative-text-for-images" class="level4">
+            <h4 id="sigil_toc_id_17">Alternative text for images</h4>
+            <p>After missing accessibility metadata, this is the most common issue found in backlist files. The topic of image description is a delicate one and represents one of the greatest difficulties when it comes to accessible digital content: how can alternative image descriptions be validated? Who should write them?</p>
+            <p>We identified three functionalities that the remediation tools should offer:</p>
+            <ul>
+              <li>
+                <p>detect missing alternative text. Images and graphics that are used for decorative purposes only don’t need an alternative text, but sometimes in the EPUB files what happen is that the HTML tags for the images (&lt;img&gt;, &lt;svg&gt;) are not just declared as decorative, but instead are missing the attributes required to specify the alternative text or to declare that the image is decorative, and so it is not possible to decide whether they were meant to be informative or not. In the case of the &lt;img&gt; tag, the alt attribute used to set the alternative text is always required and the HTML code is not well-formed if it’s missing. Warning the user about this error helps ensuring that all images either have an alternative text, or have been marked as non-informative;</p>
+              </li>
+              <li>
+                <p>provide a way to add an alternative text to images and graphical elements, and allowing to mark as decorative (or “artefact” in the PDF world) all the images and graphical elements that do not convey information and can be ignored by Assistive Technologies;</p>
+              </li>
+              <li>
+                <p>review all images. Providing a way to review all the images and the associated alternative text is extremely useful: it allows to check if all the images have been described and if all the decorative images have been marked as such. This is also helpful to check if the alternative descriptions are appropriate for the images and the context in which each image occurs.</p>
+              </li>
+            </ul>
+            <p>Remediation tools should not provide placeholder image descriptions just to pass the accessibility validation. We have found out that some tools provide non-meaningful alternative texts like generic single words (example: “image”) or the image file name (example: “final26ok72.jpg”). Unfortunately, those practices have been in place since a long time ago. Implementing some search patterns may help easily identify them and point them as errors.</p>
+            <p> <span epub:type="pagebreak" role="doc-pagebreak" id="page15" aria-label="15">
+            </span>A particular type of textual alternative for graphic content is represented by the so-called <em>extended descriptions</em>. If the alternative text represents a summary description of the image, the extended descriptions can be longer and more structured, including also tables, lists and links. Extended descriptions should be used for complex images that can be found in certain categories of books, like STEM. These images must be described in detail to ensure that their content is correctly and thoroughly conveyed to users with visual impairments using screen readers and other Assistive Technologies. At the state of the art, there is no standard way to insert extended descriptions in either the EPUB and HTML-based formats, or the PDF format. The <em>Daisy’s Best practices for authoring Extended Descriptions in EPUB</em><a href="#fn2" class="footnote-ref" id="fnref2" epub:type="noteref" role="doc-noteref"><sup>2</sup></a> provide some useful guidance on the topic.</p>
+            <p>While providing an alternative text for non-decorative graphic elements is mandatory to reach compliance with the EAA and the WCAG, whether or not the image should be described with an extended description depends on the type of image and the context in which it is placed. The possibility of inserting them in the remediation phase represents an added value for the tools.</p>
+          </section>
+          <section id="missing-or-bad-language-tag" class="level4">
+            <h4 id="sigil_toc_id_18">Missing or bad language tag</h4>
+            <p>The WCAG requires that the language of the content - therefore of each HTML documents that make up the EPUB file, and of the PDF document -, as well as the language of words, sentences and passages of text in a different language are correctly identified, to allow user agents and Assistive Technologies to present them properly (with the right spelling and pronunciation by speech synthesis) to the end user.</p>
+            <p>This implies that:</p>
+            <ul>
+              <li>
+                <p>the tool should <em>allow to set the main language of the content</em>;</p>
+              </li>
+              <li>
+                <p>the tool should <em>allow to set the language of words, phrases or passages of text</em>;</p>
+              </li>
+              <li>
+                <p>it would be ideal if it could recognize <em>a mismatch between the declared language and the actual one</em>, and report it to the human operators.</p>
+              </li>
+            </ul>
+            <p>Open source language detection libraries and open dictionaries in different languages can be used to help identify the language of the content - both for the whole document and for single passages of text, even automatically - and report cases where a language assignment may potentially not match the actual language of the content.</p>
+            <p>If the recognition of the languages used in the content and their marking can be done automatically, then it must be specified which languages are supported and can be correctly identified.</p>
+            <p>What the tool <em>should not do</em> is to to set a default value for the language of the document regardless of the actual language of the contents. If this happens, it implies the tool can only be used to remediate content in that specific default language.</p>
+          </section>
+          <section id="headings-hierarchy" class="level4">
+            <h4 id="sigil_toc_id_19">Headings hierarchy</h4>
+            <span epub:type="pagebreak" role="doc-pagebreak" id="page16" aria-label="16">
+            </span>
+            <p>The content of the ebooks, just like that of paper books, can be structured in sections, subsections, chapters or articles. The headings, generally visually stylized to stand out from the actual text, allow to recognize these parts and understand how a book is organised, what the main themes are and how they are connected. The same information must be made available also for visually impaired readers who can’t access the visual presentation of the text. Headings, just like other text components, must be tagged with the semantic tags available for the format used. Whether it is EPUB or PDF, it is necessary to use the heading tags in an appropriate way, with the appropriate level, implementing correct nesting.</p>
+            <p>Non-tagged PDF documents are commonly found, but we also identified EPUBs with missing or incorrect heading structures. The headings hierarchy must reflect the hierarchy of the publication or document, so an H2 should always be used for secondary level headings, H3 for tertiary, and so on. Headings of the same level may have different styles attached, but gaps in numbering must be avoided whenever possible, meaning that a H1 should always be followed by H2, and not H3 or a lower level.</p>
+            <p>
+             
+              Both for PDFs and EPUBs, the remediation tools should:
+         
+            </p>
+            <ul>
+              <li>
+                <p>
+                  
+                  allow to identify (tag) a text as a heading of the appropriate level. No restriction should be applied to the available levels (i.e. from level 1 to level 6) since it’s not possible to know beforehand what is the structure of the ebook;
+                  
+                </p>
+              </li>
+              <li>
+                <p>
+                  
+                    detect incorrect heading nesting. It is not required to use all the levels, but levels cannot be skipped and the hierarchy must be respected;
+                  
+                </p>
+              </li>
+              <li>
+                <p>
+                
+                   provide a way to review the headings hierarchy. This allows you to check whether the heading hierarchy respects the structure of the ebook and whether the headings are correctly nested.
+                  
+                </p>
+              </li>
+            </ul>
+            <p>
+              Publication formats like 
+              EPUB files usually include more than one HTML document (the EPUB Content Document). In these cases, the readers’ expectation is that the main headings of each document reflects their position in the overall hierarchy of the publication. Which means that the first heading of an EPUB Content Document might not always be a first-level heading. Hence, for EPUB files, remediation tools must not force each EPUB Content Document to start with a first-level heading, as this might not actually reflect the right structure of the ebook.</p>
+            <p>This is different for single document formats such as PDF, where the order of headings must reflect the structure of the document.</p>
+          </section>
+          <section id="colour-contrast" class="level4">
+            <h4 id="sigil_toc_id_20">Colour contrast</h4>
+            <p>The WCAG defines minimum colour contrast ratio requirements between text and background, and between graphic elements necessary to understand the content and their backgrounds. Even if the remediation tool doesn’t allow to change the graphic appearance of the ebook - as it may happen for PDF to PDF/UA conversion tools -, it should <em>check if the colour contrasts between the text and  <span epub:type="pagebreak" role="doc-pagebreak" id="page17" aria-label="17">
+            </span> its background is sufficient</em> and complies with the minimum requirements set by the WCAG. If feasible, a way should be provided to change the colours to meet the requirements.</p>
+            <p>This also applies to graphic elements necessary to understand the content.</p>
+          </section>
+          <section id="document-title" class="level4">
+            <h4 id="sigil_toc_id_21">Document title</h4>
+            <p>It must be possible to set the title of a PDF, which is usually found in the document properties (or metadata) panels of PDF remediation tools and reading applications.</p>
+            <p>For EPUBs, however, the title of each individual EPUB Content Document (represented by the &lt;title&gt; tag) must be meaningful. Using the book title for each Content Document is neither correct nor meaningful. If this tag is automatically populated by the remediation tool, it is important to ensure that a more meaningful text is provided (for example, the first heading, or the top-level heading of the document, eventually preceded by the book's title).</p>
+            <p>To support this requirement, the remediation tool should provide the following features:</p>
+            <ul>
+              <li>
+                <p>allowing to set the value for the &lt;title&gt; tag of each EPUB Content Document;</p>
+              </li>
+              <li>
+                <p>detecting empty &lt;title&gt; tags in EPUB Content Documents and additionally detecting wrong titles such as titles identical to the main title of the publication;</p>
+              </li>
+              <li>
+                <p>provide a way to review &lt;title&gt; tags. This means providing a way to ensure that each EPUB Content Document has a meaningful title.</p>
+              </li>
+            </ul>
+            <p>The content of the &lt;title&gt; tag is often used by EPUB reading applications to inform the reader about their current position in the publication (functionality “Where am I?”), so it’s important it provides meaningful information.</p>
+          </section>
+        </section>
+        <section id="semantics" class="level3">
+          <h3 id="sigil_toc_id_22">Semantics</h3>
+          <p>Semantics is fundamental for accessibility. HTML5 and the PDF standard provide a rather rich list of semantic tags, which must be used to convey the correct information to user agents, including Assistive Technologies such as screen readers and the people who use them. This is why a remediation tool should <em>allow semantic tags to be assigned to content</em> quickly and easily. Available semantic tags should not be limited to headings, paragraphs, and lists. The rich semantics the standards offer are much broader and should be used correctly.</p>
+        </section>
+      </section>
+    </section>
+    <section id="footnotes" class="footnotes footnotes-end-of-document" epub:type="footnotes">
+      <hr/>
+      <aside epub:type="footnote" role="doc-footnote" id="fn1">
+        <p>
+          <a href="#fnref1" class="footnote-back" role="doc-backlink">1</a>. Report on Backlist Data and gap analysis, ABELab, October 30, 2023. Available online at <a href="https://www.abelab.eu/outcomes/gap_analysis/">https://www.abelab.eu/outcomes/gap_analysis/</a></p>
+      </aside>
+      <aside epub:type="footnote" role="doc-footnote" id="fn2">
+        <p>
+          <a href="#fnref2" class="footnote-back" role="doc-backlink">2</a>.Available at  <a href="https://daisy.github.io/transitiontoepub/best-practices/extended-desc/ExtendedDescriptionsBestPractices.html">https://daisy.github.io/transitiontoepub/best-practices/extended-desc/ExtendedDescriptionsBestPractices.html</a></p>
+      </aside>
+    </section>
+</body>
+</html>

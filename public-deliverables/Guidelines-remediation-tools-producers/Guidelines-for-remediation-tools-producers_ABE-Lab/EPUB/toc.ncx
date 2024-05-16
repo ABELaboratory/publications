@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ncx version="2005-1" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+  <head>
+    <meta name="dtb:uid" content="urn:uuid:650aaa38-f312-41c3-a551-4ccb7be5f4d6"/>
+    <meta name="dtb:depth" content="1"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+    <meta name="cover" content="cover_png"/>
+  </head>
+  <docTitle>
+    <text>Guidelines for remediation tools producers</text>
+  </docTitle>
+
+  <navMap>
+
+    <navPoint id="navPoint-0">
+      <navLabel>
+        <text></text>
+      </navLabel>
+      <content src="text/title_page.xhtml"/>
+    </navPoint>
+ 
+ 
+    <navPoint id="navPoint-3">
+      <navLabel>
+        <text>Introduction</text>
+      </navLabel>
+      <content src="text/ch003.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-4">
+      <navLabel>
+        <text>Part 1 - The context</text>
+      </navLabel>
+      <content src="text/ch004.xhtml"/>
+      <navPoint id="navPoint-5">
+        <navLabel>
+          <text>Accessibility matters</text>
+        </navLabel>
+        <content src="text/ch004.xhtml#accessibility-matters"/>
+      </navPoint>
+      <navPoint id="navPoint-6">
+        <navLabel>
+          <text>Be prepared for June 2025: the European Accessibility Act is approaching</text>
+        </navLabel>
+        <content src="text/ch004.xhtml#be-prepared-for-june-2025-the-european-accessibility-act-is-approaching"/>
+      </navPoint>
+      <navPoint id="navPoint-7">
+        <navLabel>
+          <text>The ABE Lab project</text>
+        </navLabel>
+        <content src="text/ch004.xhtml#the-abe-lab-project"/>
+        <navPoint id="navPoint-8">
+          <navLabel>
+            <text>The partners</text>
+          </navLabel>
+          <content src="text/ch004.xhtml#the-partners"/>
+        </navPoint>
+        <navPoint id="navPoint-9">
+          <navLabel>
+            <text>Objectives and outcomes of the project</text>
+          </navLabel>
+          <content src="text/ch004.xhtml#objectives-and-outcomes-of-the-project"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-10">
+        <navLabel>
+          <text>Objectives of the guidelines</text>
+        </navLabel>
+        <content src="text/ch004.xhtml#objectives-of-the-guidelines"/>
+      </navPoint>
+      <navPoint id="navPoint-11">
+        <navLabel>
+          <text>A rapidly evolving landscape</text>
+        </navLabel>
+        <content src="text/ch004.xhtml#a-rapidly-evolving-landscape"/>
+      </navPoint>
+      <navPoint id="navPoint-12">
+        <navLabel>
+          <text>The rapid advance of Artificial Intelligence</text>
+        </navLabel>
+        <content src="text/ch004.xhtml#the-rapid-advance-of-artificial-intelligence"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-13">
+      <navLabel>
+        <text>Part 2 - Guidelines for remediation tools developers</text>
+      </navLabel>
+      <content src="text/ch005.xhtml"/>
+      <navPoint id="navPoint-14">
+        <navLabel>
+          <text>What should a remediation tool do?</text>
+        </navLabel>
+        <content src="text/ch005.xhtml#what-should-a-remediation-tool-do"/>
+        <navPoint id="navPoint-15">
+          <navLabel>
+            <text>Find, fix, check: the three key aspects of accessibility remediation</text>
+          </navLabel>
+          <content src="text/ch005.xhtml#find-fix-check-the-three-key-aspects-of-accessibility-remediation"/>
+        </navPoint>
+        <navPoint id="navPoint-16">
+          <navLabel>
+            <text>In-tool support</text>
+          </navLabel>
+          <content src="text/ch005.xhtml#in-tool-support"/>
+        </navPoint>
+        <navPoint id="navPoint-17">
+          <navLabel>
+            <text>Improve, don't disrupt</text>
+          </navLabel>
+          <content src="text/ch005.xhtml#improve-dont-disrupt"/>
+        </navPoint>
+        <navPoint id="navPoint-18">
+          <navLabel>
+            <text>What about multimedia resources, scripts, forms, and formulas?</text>
+          </navLabel>
+          <content src="text/ch005.xhtml#what-about-multimedia-resources-scripts-forms-and-formulas"/>
+        </navPoint>
+        <navPoint id="navPoint-19">
+          <navLabel>
+            <text>Maintaining the look &amp; feel vs resetting the styles</text>
+          </navLabel>
+          <content src="text/ch005.xhtml#maintaining-the-look-feel-vs-resetting-the-styles"/>
+        </navPoint>
+        <navPoint id="navPoint-20">
+          <navLabel>
+            <text>Functionalities to fix accessibility issues</text>
+          </navLabel>
+          <content src="text/ch005.xhtml#functionalities-to-fix-accessibility-issues"/>
+        </navPoint>
+        <navPoint id="navPoint-21">
+          <navLabel>
+            <text>Semantics</text>
+          </navLabel>
+          <content src="text/ch005.xhtml#semantics"/>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-22">
+      <navLabel>
+        <text>Part 3 - Informing users to help them making the right choice</text>
+      </navLabel>
+      <content src="text/ch006.xhtml"/>
+      <navPoint id="navPoint-23">
+        <navLabel>
+          <text>EPUB Accessibility, WCAG, PDF/UA, EAA, ADA,: which target?</text>
+        </navLabel>
+        <content src="text/ch006.xhtml#epub-accessibility-wcag-pdfua-eaa-ada-which-target"/>
+      </navPoint>
+      <navPoint id="navPoint-24">
+        <navLabel>
+          <text>Simple or complex text?</text>
+        </navLabel>
+        <content src="text/ch006.xhtml#simple-or-complex-text"/>
+      </navPoint>
+      <navPoint id="navPoint-25">
+        <navLabel>
+          <text>Formats of input and output</text>
+        </navLabel>
+        <content src="text/ch006.xhtml#formats-of-input-and-output"/>
+      </navPoint>
+      <navPoint id="navPoint-26">
+        <navLabel>
+          <text>Different tools, different targets, different workflows</text>
+        </navLabel>
+        <content src="text/ch006.xhtml#different-tools-different-targets-different-workflows"/>
+      </navPoint>
+      <navPoint id="navPoint-27">
+        <navLabel>
+          <text>Support and documentation</text>
+        </navLabel>
+        <content src="text/ch006.xhtml#support-and-documentation"/>
+      </navPoint>
+      <navPoint id="navPoint-28">
+        <navLabel>
+          <text>A safe and transparent work environment</text>
+        </navLabel>
+        <content src="text/ch006.xhtml#a-safe-and-transparent-work-environment"/>
+      </navPoint>
+      <navPoint id="navPoint-29">
+        <navLabel>
+          <text>Type of licence and plan</text>
+        </navLabel>
+        <content src="text/ch006.xhtml#type-of-licence-and-plan"/>
+      </navPoint>
+      <navPoint id="navPoint-30">
+        <navLabel>
+          <text>What else?</text>
+        </navLabel>
+        <content src="text/ch006.xhtml#what-else"/>
+        <navPoint id="navPoint-31">
+          <navLabel>
+            <text>An accessible interface is an added value</text>
+          </navLabel>
+          <content src="text/ch006.xhtml#an-accessible-interface-is-an-added-value"/>
+        </navPoint>
+        <navPoint id="navPoint-32">
+          <navLabel>
+            <text>Don’t reinvent the wheel: few open source tools available</text>
+          </navLabel>
+          <content src="text/ch006.xhtml#dont-reinvent-the-wheel-few-open-source-tools-available"/>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-33">
+      <navLabel>
+        <text>Part 4 - Evaluate the remediation functionalities of your tool</text>
+      </navLabel>
+      <content src="text/ch007.xhtml"/>
+      <navPoint id="navPoint-34">
+        <navLabel>
+          <text>For EPUBs</text>
+        </navLabel>
+        <content src="text/ch007.xhtml#for-epubs"/>
+        <navPoint id="navPoint-35">
+          <navLabel>
+            <text>EPUB Version</text>
+          </navLabel>
+          <content src="text/ch007.xhtml#epub-version"/>
+        </navPoint>
+        <navPoint id="navPoint-36">
+          <navLabel>
+            <text>Market validators</text>
+          </navLabel>
+          <content src="text/ch007.xhtml#market-validators"/>
+        </navPoint>
+        <navPoint id="navPoint-37">
+          <navLabel>
+            <text>Metadata</text>
+          </navLabel>
+          <content src="text/ch007.xhtml#metadata"/>
+        </navPoint>
+        <navPoint id="navPoint-38">
+          <navLabel>
+            <text>Graphical resources</text>
+          </navLabel>
+          <content src="text/ch007.xhtml#graphical-resources"/>
+        </navPoint>
+        <navPoint id="navPoint-39">
+          <navLabel>
+            <text>Styling and aspects</text>
+          </navLabel>
+          <content src="text/ch007.xhtml#styling-and-aspects"/>
+        </navPoint>
+        <navPoint id="navPoint-40">
+          <navLabel>
+            <text>Textual content</text>
+          </navLabel>
+          <content src="text/ch007.xhtml#textual-content"/>
+        </navPoint>
+        <navPoint id="navPoint-41">
+          <navLabel>
+            <text>Publication structure</text>
+          </navLabel>
+          <content src="text/ch007.xhtml#publication-structure"/>
+        </navPoint>
+        <navPoint id="navPoint-42">
+          <navLabel>
+            <text>Tables</text>
+          </navLabel>
+          <content src="text/ch007.xhtml#tables"/>
+        </navPoint>
+        <navPoint id="navPoint-43">
+          <navLabel>
+            <text>Navigation</text>
+          </navLabel>
+          <content src="text/ch007.xhtml#navigation"/>
+        </navPoint>
+        <navPoint id="navPoint-44">
+          <navLabel>
+            <text>Links</text>
+          </navLabel>
+          <content src="text/ch007.xhtml#links"/>
+        </navPoint>
+        <navPoint id="navPoint-45">
+          <navLabel>
+            <text>Rare content (Multimedia and scripts)</text>
+          </navLabel>
+          <content src="text/ch007.xhtml#rare-content-multimedia-and-scripts"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-46">
+        <navLabel>
+          <text>For PDFs</text>
+        </navLabel>
+        <content src="text/ch007.xhtml#for-pdfs"/>
+        <navPoint id="navPoint-47">
+          <navLabel>
+            <text>Market validators</text>
+          </navLabel>
+          <content src="text/ch007.xhtml#market-validators-1"/>
+        </navPoint>
+        <navPoint id="navPoint-48">
+          <navLabel>
+            <text>Metadata</text>
+          </navLabel>
+          <content src="text/ch007.xhtml#metadata-1"/>
+        </navPoint>
+        <navPoint id="navPoint-49">
+          <navLabel>
+            <text>Graphical resources</text>
+          </navLabel>
+          <content src="text/ch007.xhtml#graphical-resources-1"/>
+        </navPoint>
+        <navPoint id="navPoint-50">
+          <navLabel>
+            <text>Styling and aspects</text>
+          </navLabel>
+          <content src="text/ch007.xhtml#styling-and-aspects-1"/>
+        </navPoint>
+        <navPoint id="navPoint-51">
+          <navLabel>
+            <text>Textual content</text>
+          </navLabel>
+          <content src="text/ch007.xhtml#textual-content-1"/>
+        </navPoint>
+        <navPoint id="navPoint-52">
+          <navLabel>
+            <text>Document structure</text>
+          </navLabel>
+          <content src="text/ch007.xhtml#document-structure"/>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-53">
+      <navLabel>
+        <text>Appendix</text>
+      </navLabel>
+      <content src="text/ch008.xhtml"/>
+      <navPoint id="navPoint-54">
+        <navLabel>
+          <text>Acknowledgments</text>
+        </navLabel>
+        <content src="text/ch008.xhtml#acknowledgments"/>
+      </navPoint>
+      <navPoint id="navPoint-55">
+        <navLabel>
+          <text>Contacts</text>
+        </navLabel>
+        <content src="text/ch008.xhtml#contacts"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-56">
+      <navLabel>
+        <text>Document Control Information</text>
+      </navLabel>
+      <content src="text/ch009.xhtml"/>
+      <navPoint id="navPoint-57">
+        <navLabel>
+          <text>Document Approver(s) and Reviewer(s):</text>
+        </navLabel>
+        <content src="text/ch009.xhtml#document-approvers-and-reviewers"/>
+      </navPoint>
+      <navPoint id="navPoint-58">
+        <navLabel>
+          <text>Document history:</text>
+        </navLabel>
+        <content src="text/ch009.xhtml#document-history"/>
+      </navPoint>
+      <navPoint id="navPoint-59">
+        <navLabel>
+          <text>Statement of originality:</text>
+        </navLabel>
+        <content src="text/ch009.xhtml#statement-of-originality"/>
+      </navPoint>
+      <navPoint id="navPoint-60">
+        <navLabel>
+          <text>Document Location</text>
+        </navLabel>
+        <content src="text/ch009.xhtml#document-location"/>
+      </navPoint>
+    </navPoint>
+  </navMap>
+
+</ncx>
