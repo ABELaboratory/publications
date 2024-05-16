@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx version="2005-1" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+  <head>
+    <meta name="dtb:uid" content="urn:uuid:efb6609d-0ebb-495d-a323-41c06fcb427a" />
+    <meta name="dtb:depth" content="1" />
+    <meta name="dtb:totalPageCount" content="0" />
+    <meta name="dtb:maxPageNumber" content="0" />
+    <meta name="cover" content="cover_jpg" />
+  </head>
+  <docTitle>
+    <text>ABELab Report on Backlist Data and Gap Analysis</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="navPoint-0">
+      <navLabel>
+        <text></text>
+      </navLabel>
+      <content src="text/title_page.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-1">
+      <navLabel>
+        <text>Overview</text>
+      </navLabel>
+      <content src="text/ch001.xhtml#overview" />
+      <navPoint id="navPoint-2">
+        <navLabel>
+          <text>Context</text>
+        </navLabel>
+        <content src="text/ch001.xhtml#context" />
+      </navPoint>
+      <navPoint id="navPoint-3">
+        <navLabel>
+          <text>Objectives </text>
+        </navLabel>
+        <content src="text/ch001.xhtml#objectives" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-4">
+      <navLabel>
+        <text>Composition of the EU ebook Backlist</text>
+      </navLabel>
+      <content src="text/ch002.xhtml#centercomposition-of-the-eu-ebook-backlist" />
+      <navPoint id="navPoint-5">
+        <navLabel>
+          <text>Approach</text>
+        </navLabel>
+        <content src="text/ch002.xhtml#approach" />
+        <navPoint id="navPoint-6">
+          <navLabel>
+            <text>Counting titles</text>
+          </navLabel>
+          <content src="text/ch002.xhtml#counting-titles" />
+        </navPoint>
+        <navPoint id="navPoint-7">
+          <navLabel>
+            <text>Classifying titles</text>
+          </navLabel>
+          <content src="text/ch002.xhtml#classifying-titles" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-8">
+        <navLabel>
+          <text>Overview of the EU ebook backlist</text>
+        </navLabel>
+        <content src="text/ch002.xhtml#overview-of-the-eu-ebook-backlist" />
+        <navPoint id="navPoint-9">
+          <navLabel>
+            <text>Total</text>
+          </navLabel>
+          <content src="text/ch002.xhtml#total" />
+        </navPoint>
+        <navPoint id="navPoint-10">
+          <navLabel>
+            <text>Catalogue growth</text>
+          </navLabel>
+          <content src="text/ch002.xhtml#catalogue-growth" />
+        </navPoint>
+        <navPoint id="navPoint-11">
+          <navLabel>
+            <text>Number of titles in the backlist per countries</text>
+          </navLabel>
+          <content src="text/ch002.xhtml#number-of-titles-in-the-backlist-per-countries" />
+        </navPoint>
+        <navPoint id="navPoint-12">
+          <navLabel>
+            <text>Titles from outside EU</text>
+          </navLabel>
+          <content src="text/ch002.xhtml#titles-from-outside-eu" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-13">
+        <navLabel>
+          <text>Segmentation</text>
+        </navLabel>
+        <content src="text/ch002.xhtml#segmentation" />
+        <navPoint id="navPoint-14">
+          <navLabel>
+            <text>By category</text>
+          </navLabel>
+          <content src="text/ch002.xhtml#by-category" />
+        </navPoint>
+        <navPoint id="navPoint-15">
+          <navLabel>
+            <text>By format</text>
+          </navLabel>
+          <content src="text/ch002.xhtml#by-format" />
+        </navPoint>
+        <navPoint id="navPoint-16">
+          <navLabel>
+            <text>By year</text>
+          </navLabel>
+          <content src="text/ch002.xhtml#by-year" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-17">
+        <navLabel>
+          <text>Insights</text>
+        </navLabel>
+        <content src="text/ch002.xhtml#insights" />
+      </navPoint>
+      <navPoint id="navPoint-18">
+        <navLabel>
+          <text>Outcomes</text>
+        </navLabel>
+        <content src="text/ch002.xhtml#outcomes" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-19">
+      <navLabel>
+        <text>Gap analysis</text>
+      </navLabel>
+      <content src="text/ch003.xhtml#centergap-analysis" />
+      <navPoint id="navPoint-20">
+        <navLabel>
+          <text>Target</text>
+        </navLabel>
+        <content src="text/ch003.xhtml#target" />
+      </navPoint>
+      <navPoint id="navPoint-21">
+        <navLabel>
+          <text>Methodology</text>
+        </navLabel>
+        <content src="text/ch003.xhtml#methodology" />
+      </navPoint>
+      <navPoint id="navPoint-22">
+        <navLabel>
+          <text>Scoring</text>
+        </navLabel>
+        <content src="text/ch003.xhtml#scoring" />
+      </navPoint>
+      <navPoint id="navPoint-23">
+        <navLabel>
+          <text>Identified limits and bias</text>
+        </navLabel>
+        <content src="text/ch003.xhtml#identified-limits-and-bias" />
+      </navPoint>
+      <navPoint id="navPoint-24">
+        <navLabel>
+          <text>Results</text>
+        </navLabel>
+        <content src="text/ch003.xhtml#results" />
+        <navPoint id="navPoint-25">
+          <navLabel>
+            <text>Per format</text>
+          </navLabel>
+          <content src="text/ch003.xhtml#per-format" />
+        </navPoint>
+        <navPoint id="navPoint-26">
+          <navLabel>
+            <text>Focus on reflowable EPUB3</text>
+          </navLabel>
+          <content src="text/ch003.xhtml#focus-on-reflowable-epub3" />
+        </navPoint>
+        <navPoint id="navPoint-27">
+          <navLabel>
+            <text>Recurrent accessibility issues detected</text>
+          </navLabel>
+          <content src="text/ch003.xhtml#recurrent-accessibility-issues-detected" />
+        </navPoint>
+        <navPoint id="navPoint-28">
+          <navLabel>
+            <text>Potential accessibility issues undetectable through automated analysis</text>
+          </navLabel>
+          <content src="text/ch003.xhtml#potential-accessibility-issues-undetectable-through-automated-analysis" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-29">
+        <navLabel>
+          <text>Classification for remediation</text>
+        </navLabel>
+        <content src="text/ch003.xhtml#classification-for-remediation" />
+        <navPoint id="navPoint-30">
+          <navLabel>
+            <text>PDFs</text>
+          </navLabel>
+          <content src="text/ch003.xhtml#pdfs" />
+        </navPoint>
+        <navPoint id="navPoint-31">
+          <navLabel>
+            <text>Fixed Layout EPUBs</text>
+          </navLabel>
+          <content src="text/ch003.xhtml#fixed-layout-epubs" />
+        </navPoint>
+        <navPoint id="navPoint-32">
+          <navLabel>
+            <text>Reflowable EPUBs</text>
+          </navLabel>
+          <content src="text/ch003.xhtml#reflowable-epubs" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-33">
+        <navLabel>
+          <text>Outcomes</text>
+        </navLabel>
+        <content src="text/ch003.xhtml#outcomes-1" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-34">
+      <navLabel>
+        <text>Annexes</text>
+      </navLabel>
+      <content src="text/ch004.xhtml#centerannexes" />
+      <navPoint id="navPoint-35">
+        <navLabel>
+          <text>Data sources </text>
+        </navLabel>
+        <content src="text/ch004.xhtml#data-sources" />
+      </navPoint>
+      <navPoint id="navPoint-36">
+        <navLabel>
+          <text>ABELab sample collection wishlist</text>
+        </navLabel>
+        <content src="text/ch004.xhtml#abelab-sample-collection-wishlist" />
+      </navPoint>
+      <navPoint id="navPoint-37">
+        <navLabel>
+          <text> Publishers partners per country</text>
+        </navLabel>
+        <content src="text/ch004.xhtml#publishers-partners-per-country" />
+      </navPoint>
+      <navPoint id="navPoint-38">
+        <navLabel>
+          <text>Composition of the collection of ebook samples</text>
+        </navLabel>
+        <content src="text/ch004.xhtml#composition-of-the-collection-of-ebook-samples" />
+      </navPoint>
+      <navPoint id="navPoint-39">
+        <navLabel>
+          <text>Tools used in the automated analysis</text>
+        </navLabel>
+        <content src="text/ch004.xhtml#tools-used-in-the-automated-analysis" />
+        <navPoint id="navPoint-40">
+          <navLabel>
+            <text>EPUBcheck</text>
+          </navLabel>
+          <content src="text/ch004.xhtml#epubcheck" />
+        </navPoint>
+        <navPoint id="navPoint-41">
+          <navLabel>
+            <text>ACE</text>
+          </navLabel>
+          <content src="text/ch004.xhtml#ace" />
+        </navPoint>
+        <navPoint id="navPoint-42">
+          <navLabel>
+            <text>Readium Go-toolkit</text>
+          </navLabel>
+          <content src="text/ch004.xhtml#readium-go-toolkit" />
+        </navPoint>
+        <navPoint id="navPoint-43">
+          <navLabel>
+            <text>Vera PDF</text>
+          </navLabel>
+          <content src="text/ch004.xhtml#vera-pdf" />
+        </navPoint>
+        <navPoint id="navPoint-44">
+          <navLabel>
+            <text>PDFix SDK</text>
+          </navLabel>
+          <content src="text/ch004.xhtml#pdfix-sdk" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-45">
+        <navLabel>
+          <text>Glossary</text>
+        </navLabel>
+        <content src="text/ch004.xhtml#glossary" />
+        <navPoint id="navPoint-46">
+          <navLabel>
+            <text>Abbreviations</text>
+          </navLabel>
+          <content src="text/ch004.xhtml#abbreviations" />
+        </navPoint>
+        <navPoint id="navPoint-47">
+          <navLabel>
+            <text>Thema codification</text>
+          </navLabel>
+          <content src="text/ch004.xhtml#thema-codification" />
+        </navPoint>
+        <navPoint id="navPoint-48">
+          <navLabel>
+            <text>Ebooks files formats</text>
+          </navLabel>
+          <content src="text/ch004.xhtml#ebooks-files-formats" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-49">
+        <navLabel>
+          <text>Bibliography</text>
+        </navLabel>
+        <content src="text/ch004.xhtml#bibliography" />
+      </navPoint>
+      <navPoint id="navPoint-50">
+        <navLabel>
+          <text> Index of tables</text>
+        </navLabel>
+        <content src="text/ch004.xhtml#index-of-tables" />
+      </navPoint>
+      <navPoint id="navPoint-51">
+        <navLabel>
+          <text> Index of figures</text>
+        </navLabel>
+        <content src="text/ch004.xhtml#index-of-figures" />
+      </navPoint>
+      <navPoint id="navPoint-52">
+        <navLabel>
+          <text>Document Control Information</text>
+        </navLabel>
+        <content src="text/ch005.xhtml#document-control-information" />
+        <navPoint id="navPoint-53">
+          <navLabel>
+            <text>Document Approver(s) and Reviewer(s):</text>
+          </navLabel>
+          <content src="text/ch005.xhtml#document-approvers-and-reviewers" />
+        </navPoint>
+        <navPoint id="navPoint-54">
+          <navLabel>
+            <text>Document history:</text>
+          </navLabel>
+          <content src="text/ch005.xhtml#document-history" />
+        </navPoint>
+        <navPoint id="navPoint-55">
+          <navLabel>
+            <text>Statement of originality:</text>
+          </navLabel>
+          <content src="text/ch005.xhtml#statement-of-originality" />
+        </navPoint>
+        <navPoint id="navPoint-56">
+          <navLabel>
+            <text>Document Location </text>
+          </navLabel>
+          <content src="text/ch005.xhtml#document-location" />
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-57">
+      <navLabel>
+        <text>Information About This Digital Version</text>
+      </navLabel>
+      <content src="text/ch005.xhtml#information-about-this-digital-version" />
+    </navPoint>
+  </navMap>
+</ncx>

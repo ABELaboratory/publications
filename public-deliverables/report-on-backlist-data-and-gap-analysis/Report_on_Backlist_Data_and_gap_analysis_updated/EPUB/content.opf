@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<package
+  version="3.0" xmlns="http://www.idpf.org/2007/opf"
+  unique-identifier="epub-id-1"
+  prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/"
+  xml:lang="en-gb">
+  <opf:metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:identifier id="epub-id-1">urn:uuid:efb6609d-0ebb-495d-a323-41c06fcb427a</dc:identifier>
+    <dc:title id="epub-title-1">ABELab Report on Backlist Data and Gap Analysis</dc:title>
+    <opf:meta property="title-type" refines="#epub-title-1">main</opf:meta>
+    <dc:date id="epub-date">2023-10-30</dc:date>
+    <dc:language>en-gb</dc:language>
+    <dc:creator id="author1">EDRLab</dc:creator>
+    <dc:creator id="author2">Fondazione LIA</dc:creator>
+    <dc:creator id="author3">KB</dc:creator>
+    <dc:publisher>ABELab Consortium</dc:publisher>
+    <dc:rights>https://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+    <opf:meta name="cover" content="cover_jpg" />
+    <opf:meta property="dcterms:modified">2023-10-30T13:34:46Z</opf:meta>
+    <dc:source id="src-id">Pagination identical to the printed format (PDF).</dc:source>
+    <opf:meta property="source-of" refines="#src-id">pagination</opf:meta>
+    <opf:meta property="schema:accessMode">textual</opf:meta>
+    <opf:meta property="schema:accessMode">visual</opf:meta>
+    <opf:meta property="schema:accessModeSufficient">textual</opf:meta>
+    <opf:meta property="schema:accessibilityFeature">structuralNavigation</opf:meta>
+    <opf:meta property="schema:accessibilityFeature">displayTransformability</opf:meta>
+    <opf:meta property="schema:accessibilityFeature">readingOrder</opf:meta>
+    <opf:meta property="schema:accessibilityFeature">tableOfContents</opf:meta>
+    <opf:meta property="schema:accessibilityFeature">unlocked</opf:meta>
+    <opf:meta property="schema:accessibilityFeature">printPageNumbers</opf:meta>
+    <opf:meta property="schema:accessibilityFeature">alternativeText</opf:meta>
+    <opf:meta property="schema:accessibilityHazard">none</opf:meta>
+    <meta property="dcterms:conformsTo">
+     EPUB Accessibility 1.1 - WCAG 2.1 Level AA
+  </meta>
+  </opf:metadata>
+  <manifest>
+    <item
+      id="ncx"
+      href="toc.ncx"
+      media-type="application/x-dtbncx+xml" />
+    <item
+      id="nav"
+      href="text/nav.xhtml"
+      media-type="application/xhtml+xml"
+      properties="nav" />
+    <item
+      id="stylesheet1"
+      href="styles/blitz_abelab.css"
+      media-type="text/css" />
+    <item
+      id="title_page_xhtml"
+      href="text/title_page.xhtml"
+      media-type="application/xhtml+xml" />
+    <item
+      id="ch001_xhtml"
+      href="text/ch001.xhtml"
+      media-type="application/xhtml+xml" />
+    <item
+      id="ch002_xhtml"
+      href="text/ch002.xhtml"
+      media-type="application/xhtml+xml" />
+    <item
+      id="ch003_xhtml"
+      href="text/ch003.xhtml"
+      media-type="application/xhtml+xml" />
+    <item
+      id="ch004_xhtml"
+      href="text/ch004.xhtml"
+      media-type="application/xhtml+xml" />
+    <item
+      id="ch004b-addendum_xhtml"
+      href="text/ch004b-addendum.xhtml"
+      media-type="application/xhtml+xml" />
+    <item
+      id="ch005_xhtml"
+      href="text/ch005.xhtml"
+      media-type="application/xhtml+xml" />
+    <item
+      properties="cover-image"
+      id="cover_jpg"
+      href="media/cover.jpg"
+      media-type="image/jpeg" />
+    <item
+      id="file14_jpg"
+      href="media/file14.jpg"
+      media-type="image/jpeg" />
+    <item
+      id="file13_jpg"
+      href="media/file13.jpg"
+      media-type="image/jpeg" />
+    <item
+      id="file12_jpg"
+      href="media/file12.jpg"
+      media-type="image/jpeg" />
+    <item
+      id="file11_jpg"
+      href="media/file11.jpg"
+      media-type="image/jpeg" />
+    <item
+      id="file10_jpg"
+      href="media/file10.jpg"
+      media-type="image/jpeg" />
+    <item
+      id="file9_jpg"
+      href="media/file9.jpg"
+      media-type="image/jpeg" />
+    <item
+      id="file8_jpg"
+      href="media/file8.jpg"
+      media-type="image/jpeg" />
+    <item
+      id="file7_jpg"
+      href="media/file7.jpg"
+      media-type="image/jpeg" />
+    <item
+      id="file6_jpg"
+      href="media/file6.jpg"
+      media-type="image/jpeg" />
+    <item
+      id="file5_jpg"
+      href="media/file5.jpg"
+      media-type="image/jpeg" />
+    <item
+      id="file4_jpg"
+      href="media/file4.jpg"
+      media-type="image/jpeg" />
+    <item
+      id="file3_jpg"
+      href="media/file3.jpg"
+      media-type="image/jpeg" />
+    <item
+      id="file2_jpg"
+      href="media/file2.jpg"
+      media-type="image/jpeg" />
+    <item
+      id="file1_jpg"
+      href="media/file1.jpg"
+      media-type="image/jpeg" />
+    <item
+      id="file0_jpg"
+      href="media/file0.jpg"
+      media-type="image/jpeg" />
+  </manifest>
+  <spine
+    toc="ncx">
+    <itemref
+      idref="title_page_xhtml"
+      linear="no" />
+    <itemref
+      idref="nav" />
+    <itemref
+      idref="ch001_xhtml" />
+    <itemref
+      idref="ch002_xhtml" />
+    <itemref
+      idref="ch003_xhtml" />
+    <itemref
+      idref="ch004_xhtml" />
+    <itemref
+      idref="ch004b-addendum_xhtml" />
+    <itemref
+      idref="ch005_xhtml" />
+  </spine>
+  <guide>
+    <reference
+      type="toc"
+      title="ABELab Report on Backlist Data and Gap Analysis"
+      href="text/nav.xhtml" />
+  </guide>
+</package>
