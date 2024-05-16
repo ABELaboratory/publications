@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx version="2005-1" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+  <head>
+    <meta name="dtb:uid" content="urn:uuid:4c000fd0-a1d1-480d-810e-cae7768dd477" />
+    <meta name="dtb:depth" content="1" />
+    <meta name="dtb:totalPageCount" content="0" />
+    <meta name="dtb:maxPageNumber" content="0" />
+    <meta name="cover" content="cover_jpg" />
+  </head>
+  <docTitle>
+    <text>Test-suite</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="navPoint-0">
+      <navLabel>
+        <text></text>
+      </navLabel>
+      <content src="text/title_page.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-1">
+      <navLabel>
+        <text>Remediation steps</text>
+      </navLabel>
+      <content src="text/ch001.xhtml#remediation-steps" />
+      <navPoint id="navPoint-2">
+        <navLabel>
+          <text>1. PDF to PDF/UA (compliant to WCAG 2.1, level AA)</text>
+        </navLabel>
+        <content src="text/ch002.xhtml#pdf-to-pdfua-compliant-to-wcag-2.1-level-aa" />
+      </navPoint>
+      <navPoint id="navPoint-3">
+        <navLabel>
+          <text>2. PDF to Reflowable EPUB3 (compliant EPUB Accessibility 1.1, WCAG 2.1, level AA)</text>
+        </navLabel>
+        <content src="text/ch003.xhtml#pdf-to-reflowable-epub3-compliant-epub-accessibility-1.1-wcag-2.1-level-aa" />
+      </navPoint>
+      <navPoint id="navPoint-4">
+        <navLabel>
+          <text>3. FXL to «accessible» FXL (compliant EPUB Accessibility 1.1, WCAG 2.1, level AA)</text>
+        </navLabel>
+        <content src="text/ch004.xhtml#fxl-to-accessible-fxl-compliant-epub-accessibility-1.1-wcag-2.1-level-aa" />
+      </navPoint>
+      <navPoint id="navPoint-5">
+        <navLabel>
+          <text>4. FXL to Reflowable EPUB3 (compliant EPUB Accessibility 1.1, WCAG 2.1, level AA)</text>
+        </navLabel>
+        <content src="text/ch005.xhtml#fxl-to-reflowable-epub3-compliant-epub-accessibility-1.1-wcag-2.1-level-aa" />
+      </navPoint>
+      <navPoint id="navPoint-6">
+        <navLabel>
+          <text>EPUB2 to EPUB3 (compliant EPUB Accessibility 1.1, WCAG 2.1, level AA)</text>
+        </navLabel>
+        <content src="text/ch006.xhtml#epub2-to-epub3-compliant-epub-accessibility-1.1-wcag-2.1-level-aa" />
+      </navPoint>
+      <navPoint id="navPoint-7">
+        <navLabel>
+          <text>5. Reflowable EPUB to Reflowable EPUB3 (compliant EPUB Accessibility 1.1, WCAG 2.1, level AA)</text>
+        </navLabel>
+        <content src="text/ch007.xhtml#reflowable-epub-to-reflowable-epub3-compliant-epub-accessibility-1.1-wcag-2.1-level-aa" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-8">
+      <navLabel>
+        <text>Remediation unit tests</text>
+      </navLabel>
+      <content src="text/ch008.xhtml#remediation-unit-tests" />
+      <navPoint id="navPoint-9">
+        <navLabel>
+          <text>Test 1: Add Missing Accessibility Metadata</text>
+        </navLabel>
+        <content src="text/ch009.xhtml#left-test-1-add-missing-accessibility-metadata" />
+      </navPoint>
+      <navPoint id="navPoint-10">
+        <navLabel>
+          <text>Test 2: Non Reflowable content</text>
+        </navLabel>
+        <content src="text/ch010.xhtml#left-5test-2-non-reflowable-content" />
+      </navPoint>
+      <navPoint id="navPoint-11">
+        <navLabel>
+          <text>Test3: Missing or bad textual alternative for non decorative graphical resources</text>
+        </navLabel>
+        <content src="text/ch011.xhtml#left-6test3-missing-or-bad-textual-alternative-for-non-decorative-graphical-resources" />
+        <navPoint id="navPoint-12">
+          <navLabel>
+            <text>Image type1: diagram</text>
+          </navLabel>
+          <content src="text/ch011.xhtml#left-image-type1-diagram" />
+        </navPoint>
+        <navPoint id="navPoint-13">
+          <navLabel>
+            <text>Image type 2: asterism and contenjt breakers</text>
+          </navLabel>
+          <content src="text/ch011.xhtml#image-type-2-asterism-and-contenjt-breakers" />
+        </navPoint>
+        <navPoint id="navPoint-14">
+          <navLabel>
+            <text>Image type 3: art</text>
+          </navLabel>
+          <content src="text/ch011.xhtml#image-type-3-art" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-15">
+        <navLabel>
+          <text>Test 4: Missing or bad Language Tag</text>
+        </navLabel>
+        <content src="text/ch012.xhtml#left-7test-4-missing-or-bad-language-tag" />
+      </navPoint>
+      <navPoint id="navPoint-16">
+        <navLabel>
+          <text>Test 5: ACE issues</text>
+        </navLabel>
+        <content src="text/ch013.xhtml#left-8test-5-ace-issues" />
+        <navPoint id="navPoint-17">
+          <navLabel>
+            <text>1. Empty-Table-Header</text>
+          </navLabel>
+          <content src="text/ch013.xhtml#empty-table-header" />
+        </navPoint>
+        <navPoint id="navPoint-18">
+          <navLabel>
+            <text>2. Empty-Heading</text>
+          </navLabel>
+          <content src="text/ch013.xhtml#empty-heading" />
+        </navPoint>
+        <navPoint id="navPoint-19">
+          <navLabel>
+            <text>3. Heading-Order</text>
+          </navLabel>
+          <content src="text/ch013.xhtml#heading-order" />
+        </navPoint>
+        <navPoint id="navPoint-20">
+          <navLabel>
+            <text>4. Html-Has-Lang</text>
+          </navLabel>
+          <content src="text/ch013.xhtml#html-has-lang" />
+        </navPoint>
+        <navPoint id="navPoint-21">
+          <navLabel>
+            <text>5. Link-In-Text-Block</text>
+          </navLabel>
+          <content src="text/ch013.xhtml#link-in-text-block" />
+        </navPoint>
+        <navPoint id="navPoint-22">
+          <navLabel>
+            <text>6. Color-Contrast</text>
+          </navLabel>
+          <content src="text/ch013.xhtml#color-contrast" />
+        </navPoint>
+        <navPoint id="navPoint-23">
+          <navLabel>
+            <text>7. Aria-Allowed-Role</text>
+          </navLabel>
+          <content src="text/ch013.xhtml#aria-allowed-role" />
+        </navPoint>
+        <navPoint id="navPoint-24">
+          <navLabel>
+            <text>8. Aria-Roles</text>
+          </navLabel>
+          <content src="text/ch013.xhtml#aria-roles" />
+        </navPoint>
+        <navPoint id="navPoint-25">
+          <navLabel>
+            <text>9. Epub-Pagelist-Broken</text>
+          </navLabel>
+          <content src="text/ch013.xhtml#epub-pagelist-broken" />
+        </navPoint>
+        <navPoint id="navPoint-26">
+          <navLabel>
+            <text>10. Epub-Type-Has-Matching-Role</text>
+          </navLabel>
+          <content src="text/ch013.xhtml#epub-type-has-matching-role" />
+        </navPoint>
+        <navPoint id="navPoint-27">
+          <navLabel>
+            <text>11. Landmark-Unique</text>
+          </navLabel>
+          <content src="text/ch013.xhtml#landmark-unique" />
+        </navPoint>
+        <navPoint id="navPoint-28">
+          <navLabel>
+            <text>12. Epub-Toc-Order</text>
+          </navLabel>
+          <content src="text/ch013.xhtml#epub-toc-order" />
+        </navPoint>
+        <navPoint id="navPoint-29">
+          <navLabel>
+            <text>13. Link-Name</text>
+          </navLabel>
+          <content src="text/ch013.xhtml#link-name" />
+        </navPoint>
+        <navPoint id="navPoint-30">
+          <navLabel>
+            <text>14. Document-Title</text>
+          </navLabel>
+          <content src="text/ch013.xhtml#document-title" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-31">
+        <navLabel>
+          <text>Test 6: specific contents</text>
+        </navLabel>
+        <content src="text/ch014.xhtml#test-6-specific-contents" />
+        <navPoint id="navPoint-32">
+          <navLabel>
+            <text>Forms</text>
+          </navLabel>
+          <content src="text/ch014.xhtml#forms" />
+        </navPoint>
+        <navPoint id="navPoint-33">
+          <navLabel>
+            <text>Scripts</text>
+          </navLabel>
+          <content src="text/ch014.xhtml#scripts" />
+        </navPoint>
+        <navPoint id="navPoint-34">
+          <navLabel>
+            <text>Maths contents</text>
+          </navLabel>
+          <content src="text/ch014.xhtml#maths-contents" />
+        </navPoint>
+        <navPoint id="navPoint-35">
+          <navLabel>
+            <text>Video contents</text>
+          </navLabel>
+          <content src="text/ch014.xhtml#video-contents" />
+        </navPoint>
+        <navPoint id="navPoint-36">
+          <navLabel>
+            <text>Audio contents</text>
+          </navLabel>
+          <content src="text/ch014.xhtml#audio-contents" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-37">
+        <navLabel>
+          <text>test 7. Reflowable restrictions</text>
+        </navLabel>
+        <content src="text/ch015.xhtml#test-7.-reflowable-restrictions" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-38">
+      <navLabel>
+        <text>Information About This Digital Version</text>
+      </navLabel>
+      <content src="text/ch016.xhtml#information-about-this-digital-version" />
+    </navPoint>
+  </navMap>
+</ncx>

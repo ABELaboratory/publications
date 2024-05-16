@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="en-gb" lang="en-gb">
+<head>
+  <meta charset="utf-8"/>
+  <title>Test 6: specific contents</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src=".../div/script.js"></script>
+  <script src=".../div/modal.js"></script>
+  <link rel="stylesheet" type="text/css" href="../styles/abelab-remediation-test-suite.css"/>
+</head>
+
+<body epub:type="bodymatter">
+  <div id="test-6-specific-contents" class="level2" data-number="2.6">
+    <p><span epub:type="pagebreak" role="doc-pagebreak" id="page10" aria-label="Page 10. "></span></p>
+
+    <h2 data-number="2.6">Test 6: specific contents</h2>
+
+    <div id="forms" class="level3" data-number="2.6.1">
+      <h3 data-number="2.6.1" id="toc_id_20">Forms</h3>
+
+      <p>Example taken from <a href="https://www.accessibility-developer-guide.com/examples/forms/bad-example/">Accessibility developper guide General bad form example</a> provided under MIT licence by «Access for all», Swiss Foundation for technologies that fit the needs of persons with disabilities.</p>
+
+      <div class="control">
+        <label>Full name</label><input type="text"/>
+      </div>
+
+      <div class="control">
+        <label>Biography</label><textarea></textarea>
+      </div>
+
+      <div class="fieldset">
+        <div class="legend">
+          Gender
+        </div>
+
+        <div class="control">
+          <input name="gender" type="radio" value="male"/> 
+
+          <div class="label">
+            Male
+          </div>
+        </div>
+
+        <div class="control">
+          <input name="gender" type="radio" value="female"/> 
+
+          <div class="label">
+            Female
+          </div>
+        </div>
+      </div>
+
+      <a id="button" onclick="alert('Submitting using fancy JavaScript...')">Submit</a> 
+
+      <p style="text-align:left;"><b>To test: find and fix the non accessible form</b></p>
+    </div>
+
+<div
+        id="maths-contents"
+        class="level3"
+        data-number="2.6.3">
+        <h3
+          data-number="2.6.3">Maths contents</h3>
+          <p>Examples adapted from Daisy Transition to epub <a href="https://github.com/daisy/transitiontoepub/tree/main/best-practices/mathML">MathML best practices</a></p>
+          <h4>Math as plain text</h4>
+          <p class="formula"><span>∇&#x1d453;(&#x1d465;) = 2&#x1d465;</span></p>
+          <p ><span>lim {x → ∞} 1/x = 0</span></p>
+     
+          <h4>Math as MathML</h4>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mrow>
+              <mi mathvariant="normal">∇</mi>
+              <mi>f</mi>
+              <mo form="prefix" stretchy="false">(</mo>
+              <mi>x</mi>
+              <mo form="postfix" stretchy="false">)</mo>
+              <mo>=</mo>
+              <mn>2</mn>
+              <mi>x</mi>
+            </mrow>
+          </math>
+        </div>
+  </div>
+</body>
+</html>

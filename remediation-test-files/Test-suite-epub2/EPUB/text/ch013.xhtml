@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+<head>
+    <meta charset="utf-8"/>
+
+    <title></title>
+
+    <link rel="stylesheet" type="text/css" href="../styles/abelab-remediation-test-suite.css"/>
+  </head>
+  <body epub:type="bodymatter">
+    <div id="left-8test-5-ace-issues" class="level2" data-number="2.5">
+      <p>
+        <span epub:type="pagebreak" role="doc-pagebreak" id="page8" aria-label="Page 8. "></span>
+      </p>
+      <h2 data-number="2.5" style="text-align:left;">Test 5: ACE issues</h2>
+      <p>Ace issues descriptions are available at <a href="https://github.com/daisy/axe-core/blob/v4.7.2_DAISY/doc/rule-descriptions.md"><u><u>https://github.com/daisy/axe-core/blob/v4.7.2_DAISY/doc/rule-descriptions.md</u></u></a></p>
+      <div id="empty-table-header" class="level3" data-number="2.5.1">
+        <h3 data-number="2.5.1" id="toc_id_4">1. Empty-Table-Header</h3>
+        <p>Ensures table headers have discernible text</p>
+        <p style="text-align:left;">
+          <b>To test: add a header to the following table</b>
+        </p>
+        <table>
+            <tbody><tr>
+              <td>
+                <b>Market</b>
+              </td>
+              <td>
+                <b>% of EPUB2 in 2022</b>
+              </td>
+              <td>
+                <b>% of EPUB3 in 2022</b>
+              </td>
+              <td>
+                <b>% of PDF in 2022</b>
+              </td>
+            </tr>
+            <tr>
+              <td>France</td>
+              <td>12</td>
+              <td>38</td>
+              <td>22</td>
+            </tr>
+            <tr>
+              <td>Germany</td>
+              <td>34</td>
+              <td>3</td>
+              <td>60</td>
+            </tr>
+            <tr>
+              <td>Italy</td>
+              <td>36</td>
+              <td>40</td>
+              <td>23</td>
+            </tr>
+            <tr>
+              <td>Netherlands</td>
+              <td>75</td>
+              <td>10</td>
+              <td>15</td>
+            </tr>
+            <tr>
+              <td>Spain</td>
+              <td>20</td>
+              <td>15</td>
+              <td>40</td>
+            </tr>
+        </tbody>
+</table>
+        <p>
+          <b>Table 2: % of titles per distribution format in 2022</b>
+        </p>
+      </div>
+      <div id="empty-heading" class="level3" data-number="2.5.2">
+        <h3 data-number="2.5.2" id="toc_id_5">2. Empty-Heading</h3>
+        <p>Ensures headings have discernible text</p>
+        <p style="text-align:left;">
+          <b>To test: find and fix the empty heading in this file</b>
+        </p>
+        <div id="---">
+          <h5 id="toc_id_6"></h5>
+        </div>
+      </div>
+      <div id="heading-order" class="level3" data-number="2.5.3">
+        <h3 data-number="2.5.3" id="toc_id_7">3. Heading-Order</h3>
+        <p>Ensures the order of headings is semantically correct</p>
+        <p style="text-align:left;">
+          <b>To test: find and fix the heading order error in this file</b>
+        </p>
+        <div id="left-heading">
+          <h5 id="toc_id_8">heading</h5>
+        </div>
+      </div>
+      <div id="html-has-lang" class="level3" data-number="2.5.4">
+        <h3 data-number="2.5.4" id="toc_id_9">4. Html-Has-Lang</h3>
+        <p>Ensures every HTML document has a lang attribute</p>
+        <p style="text-align:left;">
+          <b>To test: find and fix the missing lang attribute on html file</b>
+        </p>
+      </div>
+      <div id="link-in-text-block" class="level3" data-number="2.5.5">
+        <h3 data-number="2.5.5" id="toc_id_10">5. Link-In-Text-Block</h3>
+        <p>Ensure links are distinguished from surrounding text in a way that does not rely on color</p>
+        <p style="text-align:left;">
+          <b>To test: find and fix the <a class="nocolorlink" href="">indistinguishable link</a></b>
+        </p>
+      </div>
+      <div id="color-contrast" class="level3" data-number="2.5.6">
+        <h3 data-number="2.5.6" id="toc_id_11">6. Color-Contrast</h3>
+        <p>Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p>
+        <p style="text-align:left;">
+          <b>To test: find and fix the <span class="ccerror">colour contrast error</span></b>
+        </p>
+      </div>
+      <div id="aria-allowed-role" class="level3" data-number="2.5.7">
+        <p>
+          <span epub:type="pagebreak" role="doc-pagebreak" id="page9" aria-label="Page 9. "></span>
+        </p>
+        <h3 data-number="2.5.7" id="toc_id_12">7. Aria-Allowed-Role</h3>
+        <p>Ensures role attribute has an appropriate value for the element</p>
+        <p style="text-align:left;">
+          <b>To test: find and fix the <span role="button">inappropriate role value</span></b>
+        </p>
+      </div>
+      <div id="aria-roles" class="level3" data-number="2.5.8" role="bad">
+        <h3 data-number="2.5.8" id="toc_id_13">8. Aria-Roles</h3>
+        <p>Ensures all elements with a role attribute use a valid value</p>
+        <p style="text-align:left;">
+          <b>To test: find and fix the non-conforming aria role</b>
+        </p>
+      </div>
+      <div id="epub-pagelist-broken" class="level3" data-number="2.5.9">
+        <h3 data-number="2.5.9" id="toc_id_14">9. Epub-Pagelist-Broken</h3>
+        <p>Authored page list references elements in HTML documents that are <span id="wrongpage">not page breaks</span> or do not exist.</p>
+        <p style="text-align:left;">
+          <b>To test: find and fix the wrong page element and the non existing page element</b>
+        </p>
+      </div>
+      <div id="epub-type-has-matching-role" class="level3" data-number="2.5.10" epub:type="balloon">
+        <h3 data-number="2.5.10" id="toc_id_15">10. Epub-Type-Has-Matching-Role</h3>
+        <p>Ensure the element has an ARIA role matching its epub:type</p>
+        <p style="text-align:left;">
+          <b>To test: find and fix the epub:type with no matching ARIA role<sup><a href="#fn1" epub:type="noteref" class="note">1</a></sup></b>
+        </p>
+      </div>
+      <div id="landmark-unique" class="level3" data-number="2.5.11">
+        <h3 data-number="2.5.11" id="toc_id_16">11. Landmark-Unique</h3>
+        <p>Landmarks should have a unique role or role/label/title (i.e. accessible name) combination</p>
+        <p style="text-align:left;">
+          <b>To test: find and fix the landmark doublon</b>
+        </p>
+      </div>
+      <div id="epub-toc-order" class="level3" data-number="2.5.12">
+        <h3 data-number="2.5.12" id="toc_id_17">12. Epub-Toc-Order</h3>
+        <p>Mismatched authored table of contents and reading order of elements inside HTML documents</p>
+        <p style="text-align:left;">
+          <b>To test: find and fix the TOC entry mismatching reading order of elements inside HTML documents</b>
+        </p>
+      </div>
+      <div id="link-name" class="level3" data-number="2.5.13">
+        <h3 data-number="2.5.13" id="toc_id_18">13. Link-Name</h3>
+        <p>Ensures links have discernible text</p>
+        <p style="text-align:left;">
+          <b>To test: find and fix the link with no name <a href=""></a></b>
+        </p>
+      </div>
+      <div id="document-title" class="level3" data-number="2.5.14">
+        <h3 data-number="2.5.14" id="toc_id_19">14. Document-Title</h3>
+        <p>Ensures each HTML document contains a non-empty &lt;title&gt; element</p>
+        <p style="text-align:left;">
+          <b>To test: find and fix the empty HTML title</b>
+        </p>
+        <p style="text-align:left;"></p>
+      </div>
+    </div>
+    <div id="footnotes" epub:type="footnote">
+    <hr/>
+    <ol>
+      <li id="fn1">
+        <p>See the footnote<a href="#fnref1">↩︎</a></p>
+      </li>
+    </ol>
+  </div>
+</body>
+</html>
