@@ -13,15 +13,12 @@
         {
             "metadata": {
                 "@type": "http://schema.org/Book",
-                "identifier": "ABELab-RBDGA-updated",
+                "identifier": "https://github.com/ABELaboratory/publications/blob/5bb58ce9826a9bdce35405e86bf3b243c11b75e3/public-deliverables/report-on-backlist-data-and-gap-analysis/Report_on_Backlist_Data_and_gap_analysis_updated/EPUB/content.opf#L9",
                 "title": "Report on Backlist Data and Gap Analysis (updated)",
                 "author": "ABE Lab - Accessible Backlist Ebooks Laboratory",
                 "description": "This document has two objectives. The first is to provide stakeholders with insight into an overview of the number of ebooks actually on the European market and their repartition by categories, formats and years of production. This is addressed in the first main section “Composition of the EU ebook backlist”. The second objective is to provide a view of the gaps to be filled for the titles in the backlist to reach conformity to the EAA. It is covered by the second main section “Gap analysis”.",
-                "collection": "Deliverables",
                 "modified": "2024-05-15T11:00:00Z",
                 "publisher": "ABELab Consortium",
-                "subject": [
-                ],
                 "accessibility": {
                     "accessMode": ["textual", "visual"],
                     "accessModeSufficient": [
@@ -57,15 +54,12 @@
         {
             "metadata": {
                 "@type": "http://schema.org/Book",
-                "identifier": "ABELab-GRTP-updated",
+                "identifier": "https://github.com/ABELaboratory/publications/blob/5bb58ce9826a9bdce35405e86bf3b243c11b75e3/public-deliverables/Guidelines-remediation-tools-producers/Guidelines-for-remediation-tools-producers/EPUB/content.opf#L4",
                 "title": "Guidelines for remediation tools producers",
                 "author": "ABE Lab - Accessible Backlist Ebooks Laboratory",
                 "description": "This document aims to provide high-level guidelines that can be used by producers and developers of remediation tools to design, develop or improve their own tools, highlighting the requirements these tools should include to be effective and to support the human operators by making the process as simple, intuitive and fluid as possible - depending also on the competence of the target users.",
-                "collection": "Deliverables",
                 "modified": "2024-05-15T11:00:00Z",
                 "publisher": "ABELab Consortium",
-                "subject": [
-                ],
                 "accessibility": {
                     "accessMode": ["textual", "visual"],
                     "accessModeSufficient": [
@@ -101,15 +95,12 @@
         {
             "metadata": {
                 "@type": "http://schema.org/Book",
-                "identifier": "ABELab-FPR",
+                "identifier": "https://github.com/ABELaboratory/publications/blob/5bb58ce9826a9bdce35405e86bf3b243c11b75e3/public-deliverables/final-public-report/Final-public-report-ABELab/EPUB/content.opf#L7",
                 "title": "Final Public Report",
                 "author": "ABE Lab - Accessible Backlist Ebooks Laboratory",
                 "description": "Final project report including a short introduction presenting context, summary of the activities,  main findings and outcomes as well as leverages proposals.",
-                "collection": "Deliverables",
                 "modified": "2024-05-15T11:00:00Z",
                 "publisher": "ABELab Consortium",
-                "subject": [
-                ],
                 "accessibility": {
                     "accessMode": ["textual", "visual"],
                     "accessModeSufficient": [
