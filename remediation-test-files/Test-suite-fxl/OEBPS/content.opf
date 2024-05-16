@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<package version="3.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid" prefix="rendition: http://www.idpf.org/vocab/rendition/# ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+		<meta name="generator" content="Adobe InDesign 16.0" />
+		<meta name="cover" content="x1.png" />
+		<meta property="ibooks:specified-fonts">true</meta>
+		<dc:title>remediation-test-file</dc:title>
+		<dc:date>2023-12-08T16:03:39Z</dc:date>
+		<dc:language>en-CA</dc:language>
+		<dc:language>fr-FR</dc:language>
+		<meta property="dcterms:modified">2023-12-08T16:03:39Z</meta>
+		<dc:identifier id="bookid">urn:uuid:29d919dd-24f5-4384-be78-b447c9dc299b</dc:identifier>
+		<!--fixed-layout options-->
+		<meta property="rendition:layout">pre-paginated</meta>
+		<meta property="rendition:orientation">landscape</meta>
+		<meta property="rendition:spread">both</meta>
+	</metadata>
+	<manifest>
+		<item id="remediation-test-file-1" href="remediation-test-file-1.xhtml" media-type="application/xhtml+xml" />
+		<item id="remediation-test-file-2" href="remediation-test-file-2.xhtml" media-type="application/xhtml+xml" />
+		<item id="remediation-test-file-3" href="remediation-test-file-3.xhtml" media-type="application/xhtml+xml" />
+		<item id="remediation-test-file-4" href="remediation-test-file-4.xhtml" media-type="application/xhtml+xml" />
+		<item id="remediation-test-file-5" href="remediation-test-file-5.xhtml" media-type="application/xhtml+xml" />
+		<item id="remediation-test-file-6" href="remediation-test-file-6.xhtml" media-type="application/xhtml+xml" />
+		<item id="remediation-test-file-7" href="remediation-test-file-7.xhtml" media-type="application/xhtml+xml" />
+		<item id="remediation-test-file-8" href="remediation-test-file-8.xhtml" media-type="application/xhtml+xml" />
+		<item id="remediation-test-file-9" href="remediation-test-file-9.xhtml" media-type="application/xhtml+xml" />
+		<item id="remediation-test-file-10" href="remediation-test-file-10.xhtml" media-type="application/xhtml+xml" />
+		<item id="remediation-test-file-11" href="remediation-test-file-11.xhtml" media-type="application/xhtml+xml" />
+		<item id="remediation-test-file-12" href="remediation-test-file-12.xhtml" media-type="application/xhtml+xml" />
+		<item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav" />
+		<item id="videoplayback.mp3" href="audio/videoplayback.mp3" media-type="audio/mpeg" />
+		<item id="idGeneratedStyles.css" href="css/idGeneratedStyles.css" media-type="text/css" />
+		<item id="AsdaenRegular.ttf" href="font/AsdaenRegular.ttf" media-type="application/x-font-ttf" />
+		<item id="BerlinSansFBDemi-Bold.TTF" href="font/BerlinSansFBDemi-Bold.TTF" media-type="application/vnd.ms-opentype" />
+		<item id="BookAntiqua.TTF" href="font/BookAntiqua.TTF" media-type="application/vnd.ms-opentype" />
+		<item id="Georgia-Bold.ttf" href="font/Georgia-Bold.ttf" media-type="application/vnd.ms-opentype" />
+		<item id="Georgia-BoldItalic.ttf" href="font/Georgia-BoldItalic.ttf" media-type="application/vnd.ms-opentype" />
+		<item id="Georgia-Italic.ttf" href="font/Georgia-Italic.ttf" media-type="application/vnd.ms-opentype" />
+		<item id="Georgia.ttf" href="font/Georgia.ttf" media-type="application/vnd.ms-opentype" />
+		<item id="NachlieliCLM-BoldOblique.otf" href="font/NachlieliCLM-BoldOblique.otf" media-type="application/vnd.ms-opentype" />
+		<item id="Poppins-Bold.ttf" href="font/Poppins-Bold.ttf" media-type="application/x-font-ttf" />
+		<item id="Poppins-Regular.ttf" href="font/Poppins-Regular.ttf" media-type="application/x-font-ttf" />
+		<item id="RobotoCondensed-BoldItalic.ttf" href="font/RobotoCondensed-BoldItalic.ttf" media-type="application/vnd.ms-opentype" />
+		<item id="RobotoCondensed-Regular.ttf" href="font/RobotoCondensed-Regular.ttf" media-type="application/vnd.ms-opentype" />
+		<item id="TwCenMT-CondensedExtraBold.TTF" href="font/TwCenMT-CondensedExtraBold.TTF" media-type="application/vnd.ms-opentype" />
+		<item id="Wingdings-Regular.ttf" href="font/Wingdings-Regular.ttf" media-type="application/vnd.ms-opentype" />
+		<item id="x1.png" href="image/1.png" media-type="image/png" properties="cover-image" />
+		<item id="x18.png" href="image/18.png" media-type="image/png" />
+		<item id="x27.png" href="image/27.png" media-type="image/png" />
+		<item id="x29.png" href="image/29.png" media-type="image/png" />
+		<item id="x32.png" href="image/32.png" media-type="image/png" />
+		<item id="x35.png" href="image/35.png" media-type="image/png" />
+		<item id="x36.png" href="image/36.png" media-type="image/png" />
+		<item id="x37.png" href="image/37.png" media-type="image/png" />
+		<item id="x38.png" href="image/38.png" media-type="image/png" />
+		<item id="x39.png" href="image/39.png" media-type="image/png" />
+		<item id="x4.png" href="image/4.png" media-type="image/png" />
+		<item id="x40.png" href="image/40.png" media-type="image/png" />
+		<item id="x41.png" href="image/41.png" media-type="image/png" />
+		<item id="x43.png" href="image/43.png" media-type="image/png" />
+		<item id="x44.png" href="image/44.png" media-type="image/png" />
+		<item id="x45.png" href="image/45.png" media-type="image/png" />
+		<item id="x46.png" href="image/46.png" media-type="image/png" />
+		<item id="x47.png" href="image/47.png" media-type="image/png" />
+		<item id="x48.png" href="image/48.png" media-type="image/png" />
+		<item id="x5.png" href="image/5.png" media-type="image/png" />
+		<item id="x6.png" href="image/6.png" media-type="image/png" />
+		<item id="x60.png" href="image/60.png" media-type="image/png" />
+		<item id="x65.png" href="image/65.png" media-type="image/png" />
+		<item id="x69.png" href="image/69.png" media-type="image/png" />
+		<item id="x70.png" href="image/70.png" media-type="image/png" />
+		<item id="x72.png" href="image/72.png" media-type="image/png" />
+		<item id="x73.png" href="image/73.png" media-type="image/png" />
+		<item id="file3.jpg" href="image/file3.jpg" media-type="image/jpeg" />
+		<item id="file4.jpg" href="image/file4.jpg" media-type="image/jpeg" />
+		<item id="file5.jpg" href="image/file5.jpg" media-type="image/jpeg" />
+		<item id="video.mp4" href="video/video.mp4" media-type="video/mp4" />
+	</manifest>
+	<spine>
+		<itemref idref="remediation-test-file-1" properties="page-spread-right" />
+		<itemref idref="remediation-test-file-2" properties="page-spread-left" />
+		<itemref idref="remediation-test-file-3" properties="page-spread-right" />
+		<itemref idref="remediation-test-file-4" properties="page-spread-left" />
+		<itemref idref="remediation-test-file-5" properties="page-spread-right" />
+		<itemref idref="remediation-test-file-6" properties="page-spread-left" />
+		<itemref idref="remediation-test-file-7" properties="page-spread-right" />
+		<itemref idref="remediation-test-file-8" properties="page-spread-left" />
+		<itemref idref="remediation-test-file-9" properties="page-spread-right" />
+		<itemref idref="remediation-test-file-10" properties="page-spread-left" />
+		<itemref idref="remediation-test-file-11" properties="page-spread-right" />
+		<itemref idref="remediation-test-file-12" properties="page-spread-left" />
+	</spine>
+</package>
