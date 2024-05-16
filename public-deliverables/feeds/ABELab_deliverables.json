@@ -21,7 +21,22 @@
                 "modified": "2024-05-15T11:00:00Z",
                 "publisher": "ABELab Consortium",
                 "subject": [
-                ]
+                ],
+                "accessibility": {
+                    "accessMode": ["textual", "visual"],
+                    "accessModeSufficient": [
+                      ["textual", "visual"],
+                      "textual"
+                    ],
+                    "conformsTo": "https://www.w3.org/TR/epub-a11y-11#wcag-2.1-aa",
+                    "feature": [
+                        "structuralNavigation",
+                        "alternativeText",
+                        "tableOfContents",
+                        "printPageNumbers",
+                        "displayTransformability"
+                    ]
+                }
             },
             "links": [
                 {
@@ -50,7 +65,22 @@
                 "modified": "2024-05-15T11:00:00Z",
                 "publisher": "ABELab Consortium",
                 "subject": [
-                ]
+                ],
+                "accessibility": {
+                    "accessMode": ["textual", "visual"],
+                    "accessModeSufficient": [
+                      ["textual", "visual"],
+                      "textual"
+                    ],
+                    "conformsTo": "https://www.w3.org/TR/epub-a11y-11#wcag-2.1-aa",
+                    "feature": [
+                        "structuralNavigation",
+                        "alternativeText",
+                        "tableOfContents",
+                        "printPageNumbers",
+                        "displayTransformability"
+                    ]
+                }
             },
             "links": [
                 {
@@ -79,7 +109,22 @@
                 "modified": "2024-05-15T11:00:00Z",
                 "publisher": "ABELab Consortium",
                 "subject": [
-                ]
+                ],
+                "accessibility": {
+                    "accessMode": ["textual", "visual"],
+                    "accessModeSufficient": [
+                      ["textual", "visual"],
+                      "textual"
+                    ],
+                    "conformsTo": "https://www.w3.org/TR/epub-a11y-11#wcag-2.1-aa",
+                    "feature": [
+                        "structuralNavigation",
+                        "alternativeText",
+                        "tableOfContents",
+                        "printPageNumbers",
+                        "displayTransformability"
+                    ]
+                }
             },
             "links": [
                 {
